@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\rc_file_path.xml",
+        "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\xml\\rc_file_path.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\xml\\rc_file_path.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\xml\\rc_file_path.xml"
     },

@@ -1,5 +1,67 @@
 [
     {
+        "outputFile": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 77,
+                    "endOffset": 128
+                },
+                "from": {
+                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 77,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 133,
+                    "endColumn": 93,
+                    "endOffset": 222
+                },
+                "from": {
+                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 133,
+                        "endColumn": 93,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 227,
+                    "endColumn": 76,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endColumn": 76,
+                        "endOffset": 299
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
         "map": [
             {
@@ -124,7 +186,7 @@
         ]
     },
     {
-        "outputFile": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
+        "outputFile": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sw\\values-sw.xml",
         "map": [
             {
                 "to": {
@@ -135,7 +197,7 @@
                     "endOffset": 128
                 },
                 "from": {
-                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "file": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMLib\\build\\intermediates\\bundles\\default\\res\\values-sw\\values-sw.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -154,7 +216,7 @@
                     "endOffset": 222
                 },
                 "from": {
-                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "file": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMLib\\build\\intermediates\\bundles\\default\\res\\values-sw\\values-sw.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -173,7 +235,7 @@
                     "endOffset": 299
                 },
                 "from": {
-                    "file": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\exploded-aar\\MyApplication\\IMLib\\unspecified\\res\\values-sw\\values-sw.xml",
+                    "file": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMLib\\build\\intermediates\\bundles\\default\\res\\values-sw\\values-sw.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
