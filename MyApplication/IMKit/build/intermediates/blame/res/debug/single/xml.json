@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/IMKit/build/intermediates/res/merged/debug/xml/rc_file_path.xml",
-        "source": "/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/IMKit/src/main/res/xml/rc_file_path.xml"
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
     },
     {
-        "merged": "/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
-        "source": "/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
     }
 ]

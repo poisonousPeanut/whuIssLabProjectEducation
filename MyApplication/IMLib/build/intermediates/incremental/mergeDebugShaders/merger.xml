@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/IMLib/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/robot3/Desktop/ASProjects/whuIssLabProjectEducation/MyApplication/IMLib/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\allProjects\whuIssLabProjectEducation\MyApplication\IMLib\src\main\shaders"/></dataSet><dataSet config="debug"><source path="F:\allProjects\whuIssLabProjectEducation\MyApplication\IMLib\src\debug\shaders"/></dataSet></merger>
