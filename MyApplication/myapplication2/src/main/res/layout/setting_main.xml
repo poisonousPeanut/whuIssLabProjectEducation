@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+   <!--<TextView-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="this is a setting layout"-->
+       <!--/>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F6"
+    >
+
+
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout" android:id="@+id/id_setting_accountSecurity">
+            <TextView style="@style/usertext" android:text="账号与安全" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+        <!-- 无圆角-->
+        <LinearLayout style="@style/bottom_layout" android:id="@+id/id_setting_persondata">
+            <TextView style="@style/usertext" android:text="我的资料" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 下圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/bottom_layout" android:id="@+id/id_setting_messageInform">-->
+            <!--<TextView style="@style/usertext" android:text="消息通知" />-->
+            <!--<ImageView style="@style/img_arrow"/>-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <!-- 全圆角-->
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout style="@style/single_layout" android:id="@+id/id_setting_auxiliaryFunc">
+            <TextView style="@style/usertext" android:text="辅助功能"/>
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrap_layout" >
+        <!-- 上圆角-->
+        <LinearLayout style="@style/top_layout" android:id="@+id/id_setting_helpAndFeedback">
+            <TextView style="@style/usertext" android:text="帮助与反馈" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+
+        <!-- 分割线 -->
+        <View style="@style/bg_line"/>
+        <!-- 下圆角-->
+        <LinearLayout style="@style/bottom_layout" android:id="@+id/id_setting_aboutUs">
+            <TextView style="@style/usertext" android:text="关于我们" />
+            <ImageView style="@style/img_arrow"/>
+        </LinearLayout>
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 下圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/bottom_layout" android:id="@+id/id_setting_messageInform">-->
+        <!--<TextView style="@style/usertext" android:text="消息通知" />-->
+        <!--<ImageView style="@style/img_arrow"/>-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrap_layout"
+        >
+        <LinearLayout style="@style/single_layout"
+            android:id="@+id/id_setting_log_out"
+            android:background="@color/Valentine_Red"
+            >
+
+            <TextView style="@style/usertext"
+                android:text="退出当前账号"
+                android:gravity="center"
+                android:textColor="@color/white"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

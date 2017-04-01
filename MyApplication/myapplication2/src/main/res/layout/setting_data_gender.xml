@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+    <!-- 全圆角-->
+    <!-- 上圆角-->
+    <LinearLayout style="@style/top_layout"
+        android:id="@+id/setting_gender_male"
+        >
+
+        <!--<ImageView style="@style/img_arrow"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="男"
+            style="@style/usertext"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_check_pink_500_24dp"
+            android:id="@+id/id_setting_gender_check_male"
+            />
+    </LinearLayout>
+    <View style="@style/bg_line"/>
+    <LinearLayout style="@style/bottom_layout"
+        android:id="@+id/id_setting_gender_female"
+        >
+        <!--<ImageView style="@style/img_arrow"/>-->
+        <TextView style="@style/usertext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="女"
+             />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_check_pink_500_24dp"
+            android:id="@+id/id_setting_gender_check_female"
+            />
+    </LinearLayout>
+
+</LinearLayout>
