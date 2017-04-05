@@ -37,15 +37,24 @@ public class BottomTagFragment extends Fragment implements RadioGroup.OnCheckedC
     private RadioButton fourth_rad;//底部标签第的第四个按钮
 //    private String[] mainFragments = {"FirstFragment", "SecondFragment", "ThirdFragment", "FourthFragment"};
 private String[] mainFragments = {"FirstFragment","FourthFragment"};
+    private MainActivity mainActivity;
+    private int pageNow;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.bottomtag_fragment,container,false);
+        mainActivity=(MainActivity)getActivity();
+        pageNow=mainActivity.getPageNow();
         radioGroup = (RadioGroup) view.findViewById(R.id.radiogroup);
         radioGroup.setOnCheckedChangeListener(this);
 
         first_rad = (RadioButton) view.findViewById(R.id.first);
         fourth_rad = (RadioButton)view.findViewById(R.id.fourth);
-//        first_rad.setChecked(true);
+        if(pageNow==1){
+            first_rad.setChecked(true);
+        }
+        if (pageNow==4){
+            fourth_rad.setChecked(true);
+        }
         return view;
     }
 

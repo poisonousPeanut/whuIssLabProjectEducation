@@ -58,10 +58,19 @@ public class FourthFragment extends Fragment{
     }
 
     @Override
-    public void onResume() {
-        mainActivity.setToolbarTitle("设置");
-        super.onResume();
+    public void onHiddenChanged(boolean hidden) {
+        if(hidden){
+            //do nothing
+        }
+        if(!hidden){
+            mainActivity.setToolbarTitle("设置");
+        }
     }
+//    @Override
+//    public void onResume() {
+//        mainActivity.setToolbarTitle("设置");
+//        super.onResume();
+//    }
 
     //    @Override
 //    public void onClick(View v) {

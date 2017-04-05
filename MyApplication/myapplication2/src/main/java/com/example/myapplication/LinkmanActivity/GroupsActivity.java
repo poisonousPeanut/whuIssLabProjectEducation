@@ -1,9 +1,7 @@
 package com.example.myapplication.LinkmanActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -22,6 +20,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 
 public class GroupsActivity extends AppCompatActivity {

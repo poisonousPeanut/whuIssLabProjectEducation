@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.UpdateInfoServes;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

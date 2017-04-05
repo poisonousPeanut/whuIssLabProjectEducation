@@ -8,20 +8,24 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_system_conversation.xml"
     },
     {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_block.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_block.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_search.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_search.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_block.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_block.xml"
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_item_single_choice.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_item_single_choice.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversationlist.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversationlist.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_item_single_choice.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_item_single_choice.xml"
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_catalog_listview.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_catalog_listview.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_voice_input.xml",
@@ -32,12 +36,12 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_input_edit_text.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
-    },
-    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_webview.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_webview.xml"
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_photo.xml",
@@ -58,6 +62,10 @@
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_pic_popup_window.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_pic_popup_window.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_grid_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_grid_item.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_leave_message.xml",
@@ -108,6 +116,14 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_search.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_discussion_notification_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_notification_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_file_list.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_file_list.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_root_menu_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_root_menu_item.xml"
     },
@@ -120,8 +136,16 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_webview.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_camera.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_camera.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_options_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_options_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_vo_popup.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_vo_popup.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_pager.xml",
@@ -130,6 +154,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_root_menu_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_root_menu_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversation_member_list.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversation_member_list.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_progress.xml",
@@ -156,16 +184,20 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_search.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
-    },
-    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
     },
     {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_prompt.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_container.xml",
@@ -176,6 +208,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_options.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_inf.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_inf.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_refresh_list_view.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_refresh_list_view.xml"
     },
@@ -184,24 +220,36 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_activity.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_base_conversation.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_base_conversation.xml"
-    },
-    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_discussion_notification_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_notification_message.xml"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_single_choice_layout.xml",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_single_choice_layout.xml"
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_base_conversation.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_base_conversation.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_rich_content_message.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_rich_content_message.xml"
     },
     {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_single_choice_layout.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_single_choice_layout.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_catalog_listview.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_catalog_listview.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_progress.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_extension_bar.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_extension_bar.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_options_item.xml",
@@ -252,8 +300,16 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_file_list.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_block_popup.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_block_popup.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_options_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_options_item.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_catalog_listview.xml",
@@ -268,20 +324,28 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversationlist.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_list_item.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_list_item.xml"
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_warning.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_warning.xml"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_real_time_activity.xml",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_real_time_activity.xml"
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_list_item.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_list_item.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_original.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_original.xml"
     },
     {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_real_time_activity.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_real_time_activity.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_list_item.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_list_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_list.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_list.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_catalog_listview.xml",
@@ -296,12 +360,20 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_photo.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_camera.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_camera.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_conversation_notification_container.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_conversation_notification_container.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoji_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_file_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_file_message.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_message.xml",
@@ -336,12 +408,12 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_plugin_location_activity.xml"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_list.xml",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_list.xml"
-    },
-    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_camera.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_camera.xml"
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_list.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_list.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fragment_base_setting.xml",
@@ -376,8 +448,16 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_location_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_input_menu_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_information_notification_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_notification_realtime_location.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_notification_realtime_location.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_message.xml",
@@ -412,6 +492,22 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_voice_input.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoticon_tab_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_menu_container.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_menu_container.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_image.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_image.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_image_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_image_message.xml"
     },
@@ -424,20 +520,20 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation.xml"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_text_message.xml",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_text_message.xml"
-    },
-    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_progress.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_progress.xml"
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_conversation.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_conversation.xml"
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_text_message.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_text_message.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_human_evaluation.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_human_evaluation.xml"
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_conversation.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_conversation.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_file_list_adapter.xml",
@@ -454,6 +550,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversation_member_list.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversation_member_list.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_item_single_choice.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_item_single_choice.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_list.xml",
@@ -476,6 +576,10 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_rich_content_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picprev_activity.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picprev_activity.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_list_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_list_item.xml"
     },
@@ -484,12 +588,20 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_human_evaluation.xml"
     },
     {
+        "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_item.xml",
+        "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_item.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_refresh_list_view.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_refresh_list_view.xml"
     },
     {
-        "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_item.xml",
-        "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_item.xml"
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_preview_fragment.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_preview_fragment.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_block.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_block.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
@@ -512,6 +624,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_evaluate.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_evaluate.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_text_message_evaluate.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_text_message_evaluate.xml"
     },
@@ -532,6 +648,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_base_activity_layout.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_rich_content_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_rich_content_message.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_webview.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_webview.xml"
     },
@@ -540,8 +660,16 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_notification_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_download.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_download.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_input_menu_item.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversation.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_inf.xml",
@@ -568,8 +696,16 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_item_single_choice.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_list_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_list_item.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_progress.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_dialog_alter.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_dialog_alter.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_grid_item.xml",
@@ -592,6 +728,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_conversation.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_prompt_warning.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt_warning.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
     },
@@ -600,12 +740,32 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_leave_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_refresh_list_view.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_refresh_list_view.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_search.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_search.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversationlist.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversationlist.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_location_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_search.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_search.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_base_activity_layout.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_base_activity_layout.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_preview_activity.xml",
@@ -624,12 +784,28 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt_warning.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_search.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_search.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_plugin_location_activity.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_plugin_location_activity.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_manager.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_manager.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_input_menu.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menu.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_container.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoticon_tab_container.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_plugin_location_activity.xml",
@@ -664,6 +840,10 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_voice_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_message.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_prompt.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt.xml"
     },
@@ -674,6 +854,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_voice_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_voice_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_block_popup.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_block_popup.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_camera.xml",
@@ -716,6 +900,10 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_sub_list.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_manager.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_manager.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_file_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_file_message.xml"
     },
@@ -744,8 +932,16 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_file_manager.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_image_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_image_message.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picprev_activity.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picprev_activity.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_options.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_options.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_item.xml",
@@ -756,8 +952,16 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menu.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_robot_evaluation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_robot_evaluation.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_preview.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_preview.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_voice_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_voice_message.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_icon_rt_location_marker.xml",
@@ -784,12 +988,28 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_camera.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_text_message_evaluate.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_text_message_evaluate.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_prompt.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_text_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_text_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_grid_camera.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_grid_camera.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_conversation_notification_container.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_share_location_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_share_location_message.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_human_evaluation.xml",
@@ -828,6 +1048,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_notification_realtime_location.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_picture_pager.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_picture_pager.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_search.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_search.xml"
     },
@@ -838,6 +1062,10 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_conversation.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_conversation.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_preview.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_preview.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_base_conversation.xml",
@@ -854,6 +1082,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation_member.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation_member.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_list.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_list.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_members.xml",
@@ -880,6 +1112,14 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_notice.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_single_choice_layout.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_single_choice_layout.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_file_list_adapter.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_file_list_adapter.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_message.xml"
     },
@@ -888,12 +1128,24 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_image_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_discussion_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_conversation.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_indicator.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_indicator.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_file_list_adapter.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_file_list_adapter.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_list.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_list.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_human_evaluation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_human_evaluation.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_root_menu_item.xml",
@@ -928,6 +1180,10 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_base_activity_layout.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_leave_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_leave_message.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_picture_pager.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_picture_pager.xml"
     },
@@ -954,6 +1210,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_file_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_file_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_root_menu_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_root_menu_item.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_file_message.xml",
@@ -992,12 +1252,20 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_file_list.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation_member.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation_member.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_image.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_image.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_image.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_image.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_item.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_dialog_alter.xml",
@@ -1026,6 +1294,10 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_location_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_input_menus.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menus.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_icon_rt_location_marker.xml",
@@ -1060,6 +1332,10 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_inf.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_mention_members.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_mention_members.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_search.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_search.xml"
     },
@@ -1076,8 +1352,16 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_conversation.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_grid_view.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_grid_view.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_item.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoticon_tab_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_pager.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoji_pager.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_plugin_location_activity.xml",
@@ -1116,12 +1400,24 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menus.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fragment_base_setting.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fragment_base_setting.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_camera.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_camera.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_rich_content_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_activity.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_activity.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_input_pager_layout.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_input_pager_layout.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_item.xml",
@@ -1160,6 +1456,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_information_notification_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_conversation.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_menu_container.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_menu_container.xml"
     },
@@ -1170,6 +1470,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_base_activity_layout.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_base_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_conversation_notification_container.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_conversation_notification_container.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoticon_tab_container.xml",
@@ -1192,12 +1496,24 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoticon_tab_item.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_input_edit_text.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_input_edit_text.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation_member.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation_member.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_sub_list.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_sub_list.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_sub_menu_item.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_notice.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_wi_notice.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_extension_bar.xml",
@@ -1232,6 +1548,10 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_input_pager_layout.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_icon_rt_location_marker.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_icon_rt_location_marker.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_cs_alert_warning.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_cs_alert_warning.xml"
     },
@@ -1258,6 +1578,10 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_grid_view.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_grid_view.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_conversation.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_preview_fragment.xml",
@@ -1364,8 +1688,16 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_notification_realtime_location.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picsel_original.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picsel_original.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_message.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_input_menu.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_input_menu.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_camera.xml",
@@ -1376,12 +1708,20 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_sub_menu_container.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_sub_menu_container.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_search.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_public_service_search.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_system_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_system_conversation.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation.xml",
@@ -1406,6 +1746,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_real_time_activity.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_real_time_activity.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_dialog_popup_prompt.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_dialog_popup_prompt.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_photo.xml",
@@ -1456,6 +1800,10 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_public_service_search.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_webview.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_webview.xml"
+    },
+    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_conversation.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_conversation.xml"
     },
@@ -1496,6 +1844,10 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_conversation.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_messagelist.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_messagelist.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_pager.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoji_pager.xml"
     },
@@ -1508,6 +1860,14 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_message.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_sub_menu_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_information_notification_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_information_notification_message.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_grid_view.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_grid_view.xml"
     },
@@ -1516,12 +1876,28 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_discussion_conversation.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_voice_input.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_voice_input.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_app_service_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_app_service_conversation.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_albums.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ac_albums.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_group_information_notification_message.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_preview_activity.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_preview_activity.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_photo.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_photo.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_public_service_sub_list.xml",
@@ -1538,6 +1914,10 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_sub_menu_item.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_pic_popup_window.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_pic_popup_window.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_wi_vo_popup.xml",
@@ -1576,6 +1956,14 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_real_time_activity.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_item.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoji_item.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_real_time_activity.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_real_time_activity.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_picprev_activity.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_picprev_activity.xml"
     },
@@ -1596,8 +1984,16 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_sub_menu_container.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_emoji_grid_view.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_emoji_grid_view.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fragment_base_setting.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fragment_base_setting.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_base_conversation.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_item_base_conversation.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_item_information_notification_message.xml",
@@ -1610,6 +2006,14 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_fr_conversationlist.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_fr_conversationlist.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_location_preview_activity.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_location_preview_activity.xml"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ext_plugin_pager.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\bundles\\debug\\res\\layout\\rc_ext_plugin_pager.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\rc_ac_file_list.xml",

@@ -21,7 +21,7 @@ import android.widget.TextView;
 import com.example.myapplication.MainActivity.lookOver.FirstFragment;
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.MyApplication;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 import com.example.myapplication.Utils.UpdateInfoServes;
 
 import retrofit2.Call;
@@ -35,8 +35,8 @@ import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
 
 public class MainActivity extends AppCompatActivity {
-    private FragmentManager mFragmentManager;
-    private FragmentTransaction mTransaction;
+//    private FragmentManager mFragmentManager;
+//    private FragmentTransaction mTransaction;
 
     public Toolbar getToolbar() {
         return toolbar;
@@ -56,35 +56,28 @@ public class MainActivity extends AppCompatActivity {
         return bottomTag;
     }
 
+    public int getPageNow() {
+        return pageNow;
+    }
+
+    public void setPageNow(int pageNow) {
+        this.pageNow = pageNow;
+    }
+
+    private int pageNow;
     private Fragment firstFragment;
-
-    private Fragment currentFragment;
-    public void setCurrentFragment(Fragment fragment){
-        currentFragment = fragment;
-    }
-
-    public Fragment getCurrentFragment() {
-        return currentFragment;
-    }
-    //    public Parent getAParent() {
-//        return parent;
-//    }
-//
-//    private Parent parent;//个人资料界面性别显示
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         MyApplication.getInstance().addActivity(this);
-        mFragmentManager = getFragmentManager();
-        mTransaction = mFragmentManager.beginTransaction();
-
-        bottomTag = new BottomTagFragment();
-        mTransaction.add(R.id.bottomTag, bottomTag);
-        mTransaction.commit();
+//        mFragmentManager = getFragmentManager();
+//        mTransaction = mFragmentManager.beginTransaction();
+        processData();
+//        bottomTag = new BottomTagFragment();
+//        mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+//        mTransaction.commit();
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("");
@@ -92,8 +85,7 @@ public class MainActivity extends AppCompatActivity {
         //toolbar.setSubtitle("子标题");
         toolbar.setLogo(R.mipmap.ic_launcher); //设置App的logo
         setSupportActionBar(toolbar);
-
-        initView();
+//        initView();
 //        setupUI(findViewById(R.id.activity_main));
     }
 
@@ -124,48 +116,71 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    @Override
-//    protected void onResume() {
-//        Bundle bundle = this.getIntent().getExtras();
-//        //接收name值
-//        try{
-//        int bottomNo = bundle.getInt("bottomNo");
-//            Log.e("MainActivity","onResume:获取到的name值为"+bottomNo);
-//            if (bottomNo==1){
-//                bottomTag.getFirst_rad().setChecked(true);
-//            }
-//            if(bottomNo==4){
-//                bottomTag.getFourth_rad().setChecked(true);
-//            }
-//        }catch (Exception E){
-//            Log.e("MainActivity", "onResume: FIRST CREAT");
-//            E.printStackTrace();
-//        }
-//
-//        super.onResume();
-//    }
-
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
+        Log.e("MainActivity", "onNewIntent: wtf");
+        setIntent(intent);
+       processData();
+    }
 
+    public void processData(){
         Bundle bundle = this.getIntent().getExtras();
+        FragmentManager manager= getFragmentManager();
+        FragmentTransaction transaction= manager.beginTransaction();
+        if(bundle==null){
+//            initView();
+//            bottomTag.getFirst_rad().setChecked(true);//似乎activity的oncreat执行完成之前fragment的oncreatview 不会执行
+            setPageNow(1);
+            bottomTag = new BottomTagFragment();
+            transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+            transaction.commit();
+            return;
+        }
         //接收name值
         try{
             int bottomNo = bundle.getInt("bottomNo");
             Log.e("MainActivity","onResume:获取到的name值为"+bottomNo);
-            if (bottomNo==1){
-                bottomTag.getFirst_rad().setChecked(true);
+            if(bottomTag==null){
+                if(manager.findFragmentByTag("bottomTagFragment")!=null){
+                    bottomTag = (BottomTagFragment) manager.findFragmentByTag("bottomTagFragment");
+//                    mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+//                    mTransaction.commit();
+                    if (bottomNo==1){
+                        bottomTag.getFirst_rad().setChecked(true);
+                        setPageNow(1);
+                    }
+                    if(bottomNo==4){
+                        bottomTag.getFourth_rad().setChecked(true);
+                        setPageNow(4);
+                    }
+                }else{
+                    bottomTag = new BottomTagFragment();
+                    transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+                    transaction.commit();
+                    if (bottomNo==1){
+                        setPageNow(1);
+                    }
+                    if(bottomNo==4){
+                        setPageNow(4);
+                    }
+                }
+            }else{
+                if (bottomNo==1){
+                    bottomTag.getFirst_rad().setChecked(true);
+                    setPageNow(1);
+                }
+                if(bottomNo==4){
+                    bottomTag.getFourth_rad().setChecked(true);
+                    setPageNow(4);
+                }
             }
-            if(bottomNo==4){
-                bottomTag.getFourth_rad().setChecked(true);
-            }
+
         }catch (Exception E){
             Log.e("MainActivity", "onResume: FIRST CREAT");
             E.printStackTrace();
         }
     }
-
     @Override
     public void onBackPressed() {
         updateData();
@@ -272,7 +287,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    //接收退出广播
+    //  MainActivity重写onSaveInstanceState方法，将super.onSaveInstanceState(outState);注释掉，让其不再保存Fragment的状态，达到其随着MainActivity一起被回收的效果
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+    }
+
+    //    //接收退出广播
 //    private BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
 //
 //

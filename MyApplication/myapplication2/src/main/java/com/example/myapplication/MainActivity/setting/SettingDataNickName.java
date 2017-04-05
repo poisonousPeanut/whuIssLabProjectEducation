@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.example.myapplication.R;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 
 /**
  * Created by 小妖王 on 2017/2/23.

@@ -9,11 +9,14 @@ import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
+import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 import static android.content.ContentValues.TAG;
 
 public class RightFragment extends Fragment implements ExpandableListView.OnChildClickListener{
+    private MainActivity mainActivity;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -21,7 +24,8 @@ public class RightFragment extends Fragment implements ExpandableListView.OnChil
         // TODO Auto-generated method stub
 
        View view =inflater.inflate(R.layout.right_fragment, container, false);
-
+        mainActivity=(MainActivity)getActivity();
+        mainActivity.setToolbarTitle("按课程查看");
         // return super.onCreateView(inflater, container, savedInstanceState);
         DemoDockingAdapterDataSource2 listData = prepareData();
         DockingExpandableListView listView
@@ -108,4 +112,16 @@ public class RightFragment extends Fragment implements ExpandableListView.OnChil
 
         return listData;
     }
+
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        if(hidden){
+//            onPause();
+        }
+        if(!hidden){
+            mainActivity.setToolbarTitle("按课程查看");
+            ParentInfo.setTitleNow("按课程查看");
+        }
+    }
+
 }

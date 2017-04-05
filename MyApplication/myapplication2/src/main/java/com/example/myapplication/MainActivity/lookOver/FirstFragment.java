@@ -13,6 +13,7 @@ import android.widget.Spinner;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,7 +65,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
 //        spinner.setOnItemClickListener(this);
         initView(view);
 //        mainActivity.getToolbar().setTitle("查看学生学习情况");
-        mainActivity.setToolbarTitle("查看");
+        mainActivity.setToolbarTitle("按时间查看");
         return view;
     }
 
@@ -153,8 +154,17 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     }
 
     @Override
-    public void onResume() {
-        mainActivity.setToolbarTitle("查看");
-        super.onResume();
+    public void onHiddenChanged(boolean hidden) {
+        if(hidden){
+            //do nothing
+        }
+        if(!hidden){
+            mainActivity.setToolbarTitle(ParentInfo.getTitleNow());
+        }
     }
+//    @Override
+//    public void onResume() {
+//        mainActivity.setToolbarTitle("查看");
+//        super.onResume();
+//    }
 }

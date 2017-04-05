@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.io.File;
 

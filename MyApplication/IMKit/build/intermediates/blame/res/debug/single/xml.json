@@ -8,6 +8,10 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
     },
     {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
+    },
+    {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\xml\\rc_file_path.xml"
     },

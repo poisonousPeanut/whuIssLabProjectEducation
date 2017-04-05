@@ -14,8 +14,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.myapplication.Bean.DayStudyInfo;
+import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -39,12 +40,15 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
     private FragmentManager mFragmentManager;
     private FragmentTransaction mTransaction;
     private Fragment timeDay;
+    private MainActivity mainActivity;
     String[] res = {"今日","2017年2月22日","2017年2月21日","2017年2月20日","2017年2月19日","2017年2月18日","2017年2月17日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日"};
     private List<String> dateList=new ArrayList<>();
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view =inflater.inflate(R.layout.left_fragment, container, false);
+        mainActivity=(MainActivity)getActivity();
+        mainActivity.setToolbarTitle("按时间查看");
         dataPrepare(ParentInfo.getLookOverIdNow());//1代表着家长所关注学生的id
         timeListView=(ListView)view.findViewById(R.id.listView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(),R.layout.list_item_1, dateList);
@@ -66,16 +70,6 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
         Bundle bundle = new Bundle();
         bundle.putInt("dateSymbol", position);
 
-        //这里用判断的方式解决了timeDay这个fragment已经被激活但是还setArguments(bundle)的异常
-        // 即避免了replace销毁不及时而造成的这种情况 但是如果timeDay指针被回收
-        // 又会出现这个问题 想不了那么远 以后要把fragment整个切换的方式全部重写 用tag好像可行
-//        if(timeDay == null){
-//            Log.e("LeftFragment", "onItemClick:timeDay is null");
-//            timeDay = new TimeDay();
-//            timeDay.setArguments(bundle);
-//        }
-
-//        mTransaction.replace(R.id.first_fragment_content, timeDay);
         timeDay = new TimeDay();
         timeDay.setArguments(bundle);
         mTransaction.hide(leftFrament);
@@ -132,4 +126,17 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
             }
         });
     }
+
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        if(hidden){
+            //do nothing
+//            onPause();
+        }
+        if(!hidden){
+            mainActivity.setToolbarTitle("按时间查看");
+            ParentInfo.setTitleNow("按时间查看");
+        }
+    }
+
 }

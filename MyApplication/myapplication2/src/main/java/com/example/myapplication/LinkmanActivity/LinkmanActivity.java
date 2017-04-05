@@ -18,9 +18,9 @@ import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.example.myapplication.LogInActivity.LogInActivity;
 import com.example.myapplication.Utils.MyApplication;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.miguelcatalan.materialsearchview.MaterialSearchView;

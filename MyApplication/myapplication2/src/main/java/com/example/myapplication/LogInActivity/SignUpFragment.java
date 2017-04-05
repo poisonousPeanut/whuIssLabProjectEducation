@@ -3,7 +3,6 @@ package com.example.myapplication.LogInActivity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,9 +11,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

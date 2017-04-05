@@ -20,7 +20,7 @@ import com.example.myapplication.LinkmanActivity.Info;
 import com.example.myapplication.LinkmanActivity.PersonalInfoActivity;
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.LinkmanActivity.ParentInfo;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.io.IOException;
 
@@ -132,8 +132,8 @@ public class LogInFragment extends Fragment {
 //                    storeInfo(parent.getUsername(),parent.getPassword());
 //                    UserUtils.setParam(getApplicationContext(),parent);
                     connect(parent.getToken());
-                    Intent intent = new Intent(getActivity(), MainActivity.class);
-                    startActivity(intent);
+//                    Intent intent = new Intent(getActivity(), MainActivity.class);
+//                    startActivity(intent);
                 }
             }
         });
