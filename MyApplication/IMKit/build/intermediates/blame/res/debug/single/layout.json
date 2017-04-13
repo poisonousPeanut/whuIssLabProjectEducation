@@ -26,6 +26,7 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_conversation.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_conversation.xml"
+<<<<<<< Updated upstream
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_camera.xml",
@@ -34,6 +35,12 @@
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_alert_warning.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_warning.xml"
+=======
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_camera.xml",
+        "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_camera.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_plugin_location_activity.xml",
@@ -52,6 +59,7 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_camera.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_list.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_ac_file_list.xml"
     },
@@ -60,6 +68,8 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_notification_realtime_location.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_conversation.xml"
     },
@@ -234,6 +244,7 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_wi_notice.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_wi_notice.xml"
+<<<<<<< Updated upstream
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_notification_message.xml",
@@ -242,6 +253,12 @@
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_public_service_sub_list.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_fr_public_service_sub_list.xml"
+=======
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_discussion_notification_message.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_discussion_notification_message.xml"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_location_message.xml",
@@ -374,6 +391,7 @@
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_base_conversation.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_base_conversation.xml"
+<<<<<<< Updated upstream
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
@@ -382,14 +400,20 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_input_edit_text.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_ext_input_edit_text.xml"
+=======
+>>>>>>> Stashed changes
     },
     {
-        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_evaluate.xml",
-        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_cs_evaluate.xml"
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_multi_rich_content_message.xml",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
     },
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_system_conversation.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_system_conversation.xml"
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_evaluate.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_cs_evaluate.xml"
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_input_menu.xml",
@@ -406,6 +430,7 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_preview_fragment.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_preview_fragment.xml"
+<<<<<<< Updated upstream
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_file_message.xml",
@@ -418,6 +443,12 @@
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_fr_messagelist.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_fr_messagelist.xml"
+=======
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_file_message.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_file_message.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_mention_list_item.xml",
@@ -436,6 +467,7 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ac_file_manager.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_ac_file_manager.xml"
     },
@@ -444,6 +476,8 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_wi_file_list_adapter.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_information_notification_message.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_information_notification_message.xml"
     },
@@ -460,10 +494,13 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_ext_plugin_item.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_picsel_grid_camera.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_camera.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_conversation_notification_container.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_conversation_notification_container.xml"
     },
@@ -860,6 +897,7 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_wi_block.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_dialog_popup_prompt.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_dialog_popup_prompt.xml"
     },
@@ -868,6 +906,8 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_ac_file_download.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_text_message_evaluate.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\layout\\rc_item_text_message_evaluate.xml"
     },

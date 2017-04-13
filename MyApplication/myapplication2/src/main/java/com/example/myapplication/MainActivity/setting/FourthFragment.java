@@ -53,7 +53,7 @@ public class FourthFragment extends Fragment{
 
         //getActivity().setTitle("555");
 
-        mainActivity.setToolbarTitle("设置");
+//        mainActivity.setToolbarTitle("设置");
         return view;
     }
 
@@ -63,7 +63,7 @@ public class FourthFragment extends Fragment{
             //do nothing
         }
         if(!hidden){
-            mainActivity.setToolbarTitle("设置");
+//            mainActivity.setToolbarTitle("设置");
         }
     }
 //    @Override

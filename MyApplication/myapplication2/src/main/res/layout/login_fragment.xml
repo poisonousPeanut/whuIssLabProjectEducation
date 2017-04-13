@@ -82,7 +82,7 @@
             android:id="@+id/buttonLogIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/Purple_Flower"
+            android:background="@drawable/button_shape"
             android:text="@string/login"
 
 

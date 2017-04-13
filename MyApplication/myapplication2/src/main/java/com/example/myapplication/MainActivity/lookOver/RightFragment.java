@@ -25,7 +25,7 @@ public class RightFragment extends Fragment implements ExpandableListView.OnChil
 
        View view =inflater.inflate(R.layout.right_fragment, container, false);
         mainActivity=(MainActivity)getActivity();
-        mainActivity.setToolbarTitle("按课程查看");
+//        mainActivity.setToolbarTitle("按课程查看");
         // return super.onCreateView(inflater, container, savedInstanceState);
         DemoDockingAdapterDataSource2 listData = prepareData();
         DockingExpandableListView listView
@@ -119,7 +119,7 @@ public class RightFragment extends Fragment implements ExpandableListView.OnChil
 //            onPause();
         }
         if(!hidden){
-            mainActivity.setToolbarTitle("按课程查看");
+//            mainActivity.setToolbarTitle("按课程查看");
             ParentInfo.setTitleNow("按课程查看");
         }
     }

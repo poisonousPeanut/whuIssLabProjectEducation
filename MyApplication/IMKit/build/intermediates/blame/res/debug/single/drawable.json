@@ -38,6 +38,7 @@
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_emotion_toggle_selector.xml",
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_emotion_toggle_selector.xml"
+<<<<<<< Updated upstream
     },
     {
         "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_mentionlist_item.xml",
@@ -46,6 +47,12 @@
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_pb_file_download_progress.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_pb_file_download_progress.xml"
+=======
+>>>>>>> Stashed changes
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_mentionlist_item.xml",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_bg_mentionlist_item.xml"
     },
     {
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ext_plugin_location_selector.xml",
@@ -88,6 +95,7 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_cs_evaluate_selector.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_cs_evaluate_selector.xml"
     },
@@ -96,6 +104,8 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_corner_voice_style.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_star_selector.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_ic_star_selector.xml"
     },
@@ -232,10 +242,13 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_read_receipt_request_button.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_item.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_bg_item.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_ic_yes_selector.xml",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_ic_yes_selector.xml"
     },
@@ -276,6 +289,7 @@
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_voice_toggle_selector.xml"
     },
     {
+<<<<<<< Updated upstream
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_cs_ratingbar.xml",
         "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_cs_ratingbar.xml"
     },
@@ -284,6 +298,8 @@
         "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_voice_input_selector.xml"
     },
     {
+=======
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable\\rc_bg_mentionlist_item.xml",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable\\rc_bg_mentionlist_item.xml"
     },

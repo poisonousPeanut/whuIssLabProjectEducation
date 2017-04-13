@@ -4,19 +4,28 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.SimpleAdapter;
 import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
+import android.widget.Toast;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by 小妖王 on 2017/2/13.
@@ -27,7 +36,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     private List<String> data_list;
     private ArrayAdapter<String> arr_adapter;
     private Button title_left_btn , title_right_btn;
-
+    private Toolbar toolbar;
 
 
     /**
@@ -47,25 +56,69 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         //spinner = (Spinner)getActivity().findViewById(R.id.spinner);
         View view=inflater.inflate(R.layout.first_fragment, container, false);
-        spinner = (Spinner)view.findViewById(R.id.spinner);
-        mainActivity=(MainActivity)getActivity();
-        //数据
-        data_list = new ArrayList<String>();
-        data_list.add("学生1");
-        data_list.add("学生2");
-        data_list.add("学生3");
-        data_list.add("学生4");
 
-        //适配器
-        arr_adapter= new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,data_list);
-        //设置样式
-        arr_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        //加载适配器
-        spinner.setAdapter(arr_adapter);
-//        spinner.setOnItemClickListener(this);
+//        spinner = (Spinner)view.findViewById(R.id.spinner);
+//        //数据
+//        data_list = new ArrayList<String>();
+//        data_list.add("学生1");
+//        data_list.add("学生2");
+//        data_list.add("学生3");
+//        data_list.add("学生4");
+//
+//        //适配器
+//        arr_adapter= new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,data_list);
+//        //设置样式
+//        arr_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        //加载适配器
+//        spinner.setAdapter(arr_adapter);
+////        spinner.setOnItemClickListener(this);
+
+
+        toolbar = (Toolbar)view.findViewById(R.id.first_toolbar);
+        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        toolbar.setLogo(R.mipmap.ic_launcher);
+
+        SpinnerAdapter spinnerAdapter = new SimpleAdapter(getActivity(),
+                                                            getData(),
+                                                            R.layout.spinner_item,new String[]{"pic","text"},
+                                                            new int[] {R.id.imageView2,R.id.textView5});
+
+
+
+        Spinner navigationSpinner = new Spinner(((AppCompatActivity) getActivity()).getSupportActionBar().getThemedContext());
+
+        navigationSpinner.setAdapter(spinnerAdapter);
+
+        toolbar.addView(navigationSpinner, 0);
+
+        navigationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+                Toast.makeText(getActivity(),
+
+                        "you selected: " + position,
+
+                        Toast.LENGTH_SHORT).show();
+
+            }
+
+            @Override
+
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+
+        });
+        mainActivity=(MainActivity)getActivity();
+
         initView(view);
 //        mainActivity.getToolbar().setTitle("查看学生学习情况");
-        mainActivity.setToolbarTitle("按时间查看");
+//        mainActivity.setToolbarTitle("按时间查看");
         return view;
     }
 
@@ -159,8 +212,19 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
             //do nothing
         }
         if(!hidden){
-            mainActivity.setToolbarTitle(ParentInfo.getTitleNow());
+//            mainActivity.setToolbarTitle(ParentInfo.getTitleNow());
         }
+    }
+
+    protected List<Map<String,Object>> getData(){
+        List<Map<String,Object>> mapList= new ArrayList<>();
+        for (int i=0;i<3;i++){
+            Map<String,Object> map = new HashMap<String, Object>();
+            map.put("pic",R.mipmap.ic_launcher);
+            map.put("text","oh,shit"+i);
+            mapList.add(map);
+        }
+        return mapList;
     }
 //    @Override
 //    public void onResume() {

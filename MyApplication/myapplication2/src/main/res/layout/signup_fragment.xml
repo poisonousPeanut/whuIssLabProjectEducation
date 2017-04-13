@@ -119,7 +119,7 @@
             android:id="@+id/button4"
             android:textColor="@color/white"
             android:layout_marginRight="10dp"
-            android:background="@color/Purple_Flower"
+            android:background="@drawable/button_shape"
             android:textStyle="bold"
 
             />

@@ -218,7 +218,7 @@ public class LinkmanActivity extends AppCompatActivity {
         call.enqueue(new Callback<Result>() {
             @Override
             public void onResponse(Call<Result> call, Response<Result> response) {
-                tvNumber.setText(response.body().getCount()+"");
+      /*这里总是有异常 点开联系人界面的时候直接崩 稍后处理*/          tvNumber.setText(response.body().getCount()+"");
             }
 
             @Override

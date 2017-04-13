@@ -48,7 +48,7 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
 
         View view =inflater.inflate(R.layout.left_fragment, container, false);
         mainActivity=(MainActivity)getActivity();
-        mainActivity.setToolbarTitle("按时间查看");
+//        mainActivity.setToolbarTitle("按时间查看");
         dataPrepare(ParentInfo.getLookOverIdNow());//1代表着家长所关注学生的id
         timeListView=(ListView)view.findViewById(R.id.listView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(),R.layout.list_item_1, dateList);
@@ -134,7 +134,7 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
 //            onPause();
         }
         if(!hidden){
-            mainActivity.setToolbarTitle("按时间查看");
+//            mainActivity.setToolbarTitle("按时间查看");
             ParentInfo.setTitleNow("按时间查看");
         }
     }

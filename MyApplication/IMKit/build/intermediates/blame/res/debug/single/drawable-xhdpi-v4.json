@@ -6,6 +6,13 @@
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f47c.png",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f47c.png"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_bubble_no_right.9.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_bubble_no_right.9.png"
+>>>>>>> Stashed changes
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ad_list_file_checked.png",
@@ -20,6 +27,21 @@
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_pub_service_follow_normal.png"
     },
     {
+<<<<<<< Updated upstream
+=======
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\u1f62e.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f62e.png"
+    },
+    {
+        "merged": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_plugin_default.png",
+        "source": "F:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_plugin_default.png"
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_star.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_star.png"
+    },
+    {
+>>>>>>> Stashed changes
         "merged": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_notice_loading.png",
         "source": "F:\\allProjects\\git\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_notice_loading.png"
     },

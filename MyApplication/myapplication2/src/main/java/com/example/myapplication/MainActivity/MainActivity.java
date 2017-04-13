@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
 
 
-    public void setToolbarTitle(String titleContent) {
-        this.toolbarTitle.setText(titleContent);
-    }
+//    public void setToolbarTitle(String titleContent) {
+//        this.toolbarTitle.setText(titleContent);
+//    }
 
     private TextView toolbarTitle;
     private BottomTagFragment bottomTag;//主页面底部标签栏
@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity {
 //        mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
 //        mTransaction.commit();
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("");
-        toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
+//        toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        toolbar.setTitle("");
+//        toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
         //toolbar.setSubtitle("子标题");
-        toolbar.setLogo(R.mipmap.ic_launcher); //设置App的logo
-        setSupportActionBar(toolbar);
+//        toolbar.setLogo(R.mipmap.ic_launcher); //设置App的logo
+//        setSupportActionBar(toolbar);
 //        initView();
 //        setupUI(findViewById(R.id.activity_main));
     }
