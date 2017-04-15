@@ -4,9 +4,11 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
@@ -27,6 +29,8 @@ public class FourthFragment extends Fragment{
 
     private Fragment fragmentM;
     private MainActivity mainActivity;
+    private Toolbar toolbar;
+    private TextView toolbarTitle;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fourth_fragment, container, false);
@@ -35,6 +39,10 @@ public class FourthFragment extends Fragment{
         mFragmentManager = getFragmentManager();
         mTransaction = mFragmentManager.beginTransaction();
 
+        toolbar = (Toolbar)view.findViewById(R.id.fourth_toolbar);
+        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbarTitle = (TextView) view.findViewById(R.id.toolbarTitle4);
+        toolbarTitle.setText("设置");
         fragmentM=new SettingMain();
         mTransaction.replace(R.id.fourth_fragment_content, fragmentM);
         mTransaction.commit();

@@ -8,12 +8,12 @@
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_plugin_default.png"
     },
     {
-        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_7.png",
-        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_7.png"
-    },
-    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_unread_remind_list_count.png",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_unread_remind_list_count.png"
+    },
+    {
+        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_volume_7.png",
+        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_volume_7.png"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ed_pub_service_search_hover.9.png",
@@ -28,20 +28,20 @@
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_open_file_normal.png"
     },
     {
-        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f615.png",
-        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f615.png"
-    },
-    {
         "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_origin_check_nor.png",
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_origin_check_nor.png"
     },
     {
-        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ad_list_folder_icon.png",
-        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_folder_icon.png"
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f615.png",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f615.png"
     },
     {
         "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_comment_bg.png",
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_comment_bg.png"
+    },
+    {
+        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ad_list_folder_icon.png",
+        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_folder_icon.png"
     },
     {
         "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
@@ -72,12 +72,12 @@
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_comment_bg.png"
     },
     {
-        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f451.png",
-        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f451.png"
-    },
-    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ac_text_file_icon.png",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ac_text_file_icon.png"
+    },
+    {
+        "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f451.png",
+        "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f451.png"
     },
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_admin.png",
@@ -108,12 +108,12 @@
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_origin_check_sel.png"
     },
     {
-        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f6ab.png",
-        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f6ab.png"
-    },
-    {
         "merged": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f636.png",
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f636.png"
+    },
+    {
+        "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f6ab.png",
+        "source": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f6ab.png"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ic_bubble_right_file.9.png",
@@ -128,16 +128,16 @@
         "source": "E:\\Users\\robot3\\Desktop\\ASProjects\\whuIssLabProjectEducation\\MyApplication\\D:\\AndroidStudioProjects\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f62b.png"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_audio_toggle_hover.png",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_audio_toggle_hover.png"
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_input_sub_menu_bg.9.png"
     },
     {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f48b.png",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f48b.png"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_input_sub_menu_bg.9.png"
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_audio_toggle_hover.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_audio_toggle_hover.png"
     },
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_cs_group_uncheck.png",
@@ -228,12 +228,12 @@
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ext_plugin_image.png"
     },
     {
-        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_unread_message_count.png",
-        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_unread_message_count.png"
-    },
-    {
         "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_ad_list_video_icon.png",
         "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ad_list_video_icon.png"
+    },
+    {
+        "merged": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\rc_unread_message_count.png",
+        "source": "F:\\allProjects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_unread_message_count.png"
     },
     {
         "merged": "E:\\projects\\whuIssLabProjectEducation\\MyApplication\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\u1f3e1.png",

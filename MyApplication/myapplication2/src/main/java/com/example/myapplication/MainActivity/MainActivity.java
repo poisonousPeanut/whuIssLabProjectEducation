@@ -10,13 +10,10 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.example.myapplication.MainActivity.lookOver.FirstFragment;
 import com.example.myapplication.R;
@@ -49,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 //        this.toolbarTitle.setText(titleContent);
 //    }
 
-    private TextView toolbarTitle;
+//    private TextView toolbarTitle;
     private BottomTagFragment bottomTag;//主页面底部标签栏
 
     public Fragment getBottomTag() {
@@ -90,31 +87,31 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+//    }
 
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        switch (id) {
-            case R.id.add_friend:
-                //加上加好友的逻辑
-                break;
-            case R.id.scace:
-                //加上扫一扫
-                break;
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        switch (id) {
+//            case R.id.add_friend:
+//                //加上加好友的逻辑
+//                break;
+//            case R.id.scace:
+//                //加上扫一扫
+//                break;
+//
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     protected void onNewIntent(Intent intent) {

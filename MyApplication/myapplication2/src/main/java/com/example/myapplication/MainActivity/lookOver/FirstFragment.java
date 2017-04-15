@@ -4,23 +4,16 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.SimpleAdapter;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
-import android.widget.Toast;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -75,45 +68,45 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
 
 
         toolbar = (Toolbar)view.findViewById(R.id.first_toolbar);
-        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+//        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         toolbar.setLogo(R.mipmap.ic_launcher);
 
-        SpinnerAdapter spinnerAdapter = new SimpleAdapter(getActivity(),
-                                                            getData(),
-                                                            R.layout.spinner_item,new String[]{"pic","text"},
-                                                            new int[] {R.id.imageView2,R.id.textView5});
-
-
-
-        Spinner navigationSpinner = new Spinner(((AppCompatActivity) getActivity()).getSupportActionBar().getThemedContext());
-
-        navigationSpinner.setAdapter(spinnerAdapter);
-
-        toolbar.addView(navigationSpinner, 0);
-
-        navigationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
-            @Override
-
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-                Toast.makeText(getActivity(),
-
-                        "you selected: " + position,
-
-                        Toast.LENGTH_SHORT).show();
-
-            }
-
-            @Override
-
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-
-        });
+//        SpinnerAdapter spinnerAdapter = new SimpleAdapter(getActivity(),
+//                                                            getData(),
+//                                                            R.layout.spinner_item,new String[]{"pic","text"},
+//                                                            new int[] {R.id.imageView2,R.id.textView5});
+//
+//
+//
+//        Spinner navigationSpinner = new Spinner(toolbar.getContext());//(((AppCompatActivity) getActivity()).getSupportActionBar().getThemedContext());
+//
+//        navigationSpinner.setAdapter(spinnerAdapter);
+//
+//        toolbar.addView(navigationSpinner, 0);
+//
+//        navigationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//
+//            @Override
+//
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//
+//                Toast.makeText(getActivity(),
+//
+//                        "you selected: " + position,
+//
+//                        Toast.LENGTH_SHORT).show();
+//
+//            }
+//
+//            @Override
+//
+//            public void onNothingSelected(AdapterView<?> parent) {
+//
+//            }
+//
+//        });
         mainActivity=(MainActivity)getActivity();
 
         initView(view);
