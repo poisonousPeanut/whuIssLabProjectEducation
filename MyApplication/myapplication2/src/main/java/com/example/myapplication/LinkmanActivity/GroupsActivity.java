@@ -7,7 +7,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
 
@@ -19,14 +23,14 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
-import com.example.myapplication.R;
-import com.example.myapplication.Utils.ParentInfo;
 
 
 public class GroupsActivity extends AppCompatActivity {
 
     @Bind(R.id.recycler_general)
     RecyclerView mRecyclerGeneral;
+    @Bind(R.id.toolbarTitle)
+    TextView toolbarTitle;
     private RecyclerGroupsAdapter mAdapter;
 
     @Override
@@ -35,6 +39,8 @@ public class GroupsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_groups);
         ButterKnife.bind(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        toolbarTitle.setText("我的群组");
         setSupportActionBar(toolbar);
         initView();
         initData();

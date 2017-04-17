@@ -71,7 +71,7 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
 //        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
 //        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
 
-        toolbar.setLogo(R.mipmap.ic_launcher);
+//        toolbar.setLogo(R.mipmap.ic_launcher);
 
 //        SpinnerAdapter spinnerAdapter = new SimpleAdapter(getActivity(),
 //                                                            getData(),

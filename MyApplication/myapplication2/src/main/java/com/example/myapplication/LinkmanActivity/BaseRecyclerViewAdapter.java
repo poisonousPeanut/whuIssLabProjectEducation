@@ -23,7 +23,11 @@ public abstract class BaseRecyclerViewAdapter<E,VH extends RecyclerView.ViewHold
 
     @Override
     public int getItemCount() {
-        return data.size();
+        try {
+            return data.size();
+        }catch (Exception e){
+            return 0;
+        }
     }
 
     public void setData(ArrayList<E> data) {

@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.MyApplication;
 
 /**
  * Created by 小妖王 on 2017/2/20.
@@ -98,7 +99,7 @@ public class SettingMain extends Fragment implements OnClickListener {
             //退出登录逻辑
             case R.id.id_setting_log_out:
                 //退出登录
-                getActivity().finish();
+                MyApplication.getInstance().exit();
                 break;
 
             //            case R.id.id_setting_messageInform:

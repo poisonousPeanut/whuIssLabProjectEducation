@@ -14,8 +14,8 @@ public class MyUtils {
         try {
             inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
         } catch (Exception e) {
-            e.printStackTrace();
-            Log.e("MyUtils", "exception again!");
+//            e.printStackTrace();
+            Log.e("MyUtils", " hide softkeyboard exception");
         }
     }
 

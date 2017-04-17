@@ -126,7 +126,7 @@ public class LogInFragment extends Fragment {
                     ParentInfo.token = parent.getToken();
                     ParentInfo.username = parent.getUsername();
                     ParentInfo.uid = "a"+parent.getId();
-                    Log.e("id", ParentInfo.id+"");
+                    Log.e("introduction", ParentInfo.introduction+"");
                     Log.e("username", ParentInfo.username+"");
                     Log.e("success", "onResponse:1 ");
 //                    storeInfo(parent.getUsername(),parent.getPassword());

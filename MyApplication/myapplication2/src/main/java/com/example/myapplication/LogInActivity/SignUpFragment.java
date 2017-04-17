@@ -47,6 +47,7 @@ public class SignUpFragment extends Fragment {
         String confirm = registerCheckpwd.getText().toString();
         int nameLength = registerName.getText().toString().length();
         int pwdLength = pwd.length();
+        //为测试方便暂时注释的代码
 //        if(nameLength<7){
 //            Toast.makeText(getActivity(), "用户名过短，应有8-11位用户名", Toast.LENGTH_SHORT).show();
 //            return;
@@ -115,6 +116,9 @@ public class SignUpFragment extends Fragment {
                         }
                         transaction.remove(fragment1);
                         transaction.commit();
+                    }else if(response.body().equals("account already exits")){
+                        Toast.makeText(getActivity(), "用户名已存在", Toast.LENGTH_SHORT).show();
+                        registerName.setText("");
                     }
                 }
 

@@ -44,7 +44,7 @@ public class MessageActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("");
         toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
-        toolbar.setLogo(R.mipmap.ic_launcher);
+//        toolbar.setLogo(R.mipmap.ic_launcher);
         toolbarTitle.setText("消息");
         setSupportActionBar(toolbar);
 

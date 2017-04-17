@@ -40,7 +40,7 @@ public class FourthFragment extends Fragment{
         mTransaction = mFragmentManager.beginTransaction();
 
         toolbar = (Toolbar)view.findViewById(R.id.fourth_toolbar);
-        toolbar.setLogo(R.mipmap.ic_launcher);
+//        toolbar.setLogo(R.mipmap.ic_launcher);
         toolbarTitle = (TextView) view.findViewById(R.id.toolbarTitle4);
         toolbarTitle.setText("设置");
         fragmentM=new SettingMain();

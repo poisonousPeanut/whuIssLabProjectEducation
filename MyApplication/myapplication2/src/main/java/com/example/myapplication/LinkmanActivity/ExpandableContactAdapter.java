@@ -7,12 +7,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
-import com.example.myapplication.R;
-import com.example.myapplication.Utils.ParentInfo;
 
 
 /**
@@ -44,7 +44,10 @@ public class ExpandableContactAdapter extends AnimatedExpandableListView.Animate
 
     @Override
     public int getGroupCount() {
-        return data.size();
+        if (data!=null){
+        return data.size();}
+        else return 0;
+
     }
 
 

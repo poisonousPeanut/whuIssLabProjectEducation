@@ -13,7 +13,11 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.myapplication.R;
+import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
 
@@ -25,14 +29,14 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
-import com.example.myapplication.R;
-import com.example.myapplication.Utils.ParentInfo;
 
 
 public class FriendRequestActivity extends AppCompatActivity {
 
     @Bind(R.id.re_friend_request)
     RecyclerView reFriendRequest;
+    @Bind(R.id.toolbarTitle)
+    TextView toolbarTitle;
     private RecyclerFriendRequestAdapter mAdapter;
     private ArrayAdapter<String> mArrayAdapter;
     private Spinner mSpinner;
@@ -43,6 +47,8 @@ public class FriendRequestActivity extends AppCompatActivity {
         setContentView(R.layout.activity_friend_request);
         ButterKnife.bind(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
+        toolbarTitle.setText("好友请求");
         setSupportActionBar(toolbar);
         initView();
      initData();

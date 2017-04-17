@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 //        toolbar.setLogo(R.mipmap.ic_launcher); //设置App的logo
 //        setSupportActionBar(toolbar);
 //        initView();
-//        setupUI(findViewById(R.id.activity_main));
+        setupUI(findViewById(R.id.activity_main));
     }
 
 

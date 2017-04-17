@@ -69,7 +69,7 @@ public class LogInActivity extends Activity {
             getFragmentManager().popBackStack();
         } else {
             new AlertDialog.Builder(this).setTitle("确认退出吗？")
-                    .setIcon(R.mipmap.ic_launcher)
+                    .setIcon(R.drawable.ic_info_outline_red_500_24dp)
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
 
                         @Override

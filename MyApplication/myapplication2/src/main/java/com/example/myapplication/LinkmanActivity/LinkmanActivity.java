@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -65,6 +66,7 @@ public class LinkmanActivity extends AppCompatActivity {
     public Fragment getBottomTag() {
         return bottomTag;
     }
+
     @Bind(R.id.aelv_contact)
     AnimatedExpandableListView aelvContact;
     @Bind(R.id.search_view)
@@ -86,8 +88,8 @@ public class LinkmanActivity extends AppCompatActivity {
         MyApplication.getInstance().addActivity(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("");
-        toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
-        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbarTitle = (TextView) findViewById(R.id.toolbarTitle);
+//        toolbar.setLogo(R.mipmap.ic_launcher);
         toolbarTitle.setText("联系人");
         setSupportActionBar(toolbar);
 
@@ -112,6 +114,8 @@ public class LinkmanActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.search, menu);
         MenuItem item = menu.findItem(R.id.action_search);
         searchView.setMenuItem(item);
+        searchView.setBackgroundColor(getResources().getColor(R.color.Bright_Gold));
+        searchView.setHint("请输入用户名或昵称以搜索");
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -190,9 +194,15 @@ public class LinkmanActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<ArrayList<RosterGroup>> call, Response<ArrayList<RosterGroup>> response) {
                 mAdapter.setData(response.body());
-                ParentInfo.groupNames.clear();
-                for(RosterGroup group:response.body()){
-                    ParentInfo.groupNames.add(group.getName());
+                try {
+                    ParentInfo.groupNames.clear();
+                }catch (Exception e){
+                    Log.e("LinkmanActivity", "onResponse:ParentInfo.groupNames has no elements");
+                }
+                if (response.body() != null) {
+                    for (RosterGroup group : response.body()) {
+                        ParentInfo.groupNames.add(group.getName());
+                    }
                 }
             }
 
@@ -218,7 +228,10 @@ public class LinkmanActivity extends AppCompatActivity {
         call.enqueue(new Callback<Result>() {
             @Override
             public void onResponse(Call<Result> call, Response<Result> response) {
-      /*这里总是有异常 点开联系人界面的时候直接崩 稍后处理*/          tvNumber.setText(response.body().getCount()+"");
+      /*这里总是有异常 点开联系人界面的时候直接崩 稍后处理*/
+                if (response.body()!=null){
+                tvNumber.setText(response.body().getCount() + "");}
+                else tvNumber.setText(0);
             }
 
             @Override
@@ -260,16 +273,17 @@ public class LinkmanActivity extends AppCompatActivity {
     public void loadData() {
         cachePath = getCacheDir().getAbsolutePath();
         cacheFile = new File(cachePath + File.separator + getClass().getSimpleName());
-        if (cacheFile.exists()){
+        if (cacheFile.exists()) {
 
             BufferedReader bufferedReader = null;
             try {
                 bufferedReader = new BufferedReader(new FileReader(cacheFile));
-                String line ;
+                String line;
                 StringBuilder builder = new StringBuilder();
                 while ((line = bufferedReader.readLine()) != null) {
                     builder.append(line);
-                    data = gson.fromJson(builder.toString(), new TypeToken<ArrayList<RosterGroup>>(){}.getType());
+                    data = gson.fromJson(builder.toString(), new TypeToken<ArrayList<RosterGroup>>() {
+                    }.getType());
                 }
                 mAdapter.setData(data);
             } catch (FileNotFoundException e) {
@@ -293,11 +307,11 @@ public class LinkmanActivity extends AppCompatActivity {
         data = groups;
         PrintWriter writer = null;
         try {
-            writer =new PrintWriter( cacheFile) ;
+            writer = new PrintWriter(cacheFile);
             writer.print(gson.toJson(groups));
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             writer.close();
         }
     }
@@ -328,7 +342,7 @@ public class LinkmanActivity extends AppCompatActivity {
         if (getFragmentManager().getBackStackEntryCount() > 0) {
             getFragmentManager().popBackStack();
         } else {
-           //do nothing 不返回上一个activity
+            //do nothing 不返回上一个activity
             new AlertDialog.Builder(this).setTitle("确认退出吗？")
                     .setIcon(R.drawable.ic_info_outline_red_500_24dp)
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
