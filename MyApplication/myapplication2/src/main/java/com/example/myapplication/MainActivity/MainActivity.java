@@ -17,7 +17,7 @@ import android.widget.EditText;
 
 import com.example.myapplication.MainActivity.lookOver.FirstFragment;
 import com.example.myapplication.R;
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 import com.example.myapplication.Utils.ParentInfo;
 import com.example.myapplication.Utils.UpdateInfoServes;
 

@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 import com.example.myapplication.R;
 
 import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;

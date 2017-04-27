@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.os.Process;
 import android.view.View;
 
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 
 
 /**

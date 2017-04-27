@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 
 /**
  * Created by 小妖王 on 2017/2/20.

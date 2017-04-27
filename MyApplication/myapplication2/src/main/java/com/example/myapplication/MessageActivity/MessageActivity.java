@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 
 public class MessageActivity extends AppCompatActivity {
     private FragmentManager mFragmentManager;

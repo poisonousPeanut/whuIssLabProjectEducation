@@ -19,7 +19,7 @@ import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
-import com.example.myapplication.Utils.MyApplication;
+import com.example.myapplication.MyApplication;
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.ParentInfo;
 import com.google.gson.Gson;

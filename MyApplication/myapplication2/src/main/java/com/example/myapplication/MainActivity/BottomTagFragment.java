@@ -51,6 +51,7 @@ private String[] mainFragments = {"FirstFragment","FourthFragment"};
         fourth_rad = (RadioButton)view.findViewById(R.id.fourth);
         if(pageNow==1){
             first_rad.setChecked(true);
+            //changeFragment("FirstFragment");
         }
         if (pageNow==4){
             fourth_rad.setChecked(true);

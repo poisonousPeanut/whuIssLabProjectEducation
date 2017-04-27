@@ -50,8 +50,8 @@ public class FriendRequestActivity extends AppCompatActivity {
         toolbar.setTitle("");
         toolbarTitle.setText("好友请求");
         setSupportActionBar(toolbar);
+        initData();
         initView();
-     initData();
     }
 
     private void initData() {

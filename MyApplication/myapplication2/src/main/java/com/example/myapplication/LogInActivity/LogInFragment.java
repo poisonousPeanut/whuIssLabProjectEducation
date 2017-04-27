@@ -61,6 +61,11 @@ public class LogInFragment extends Fragment {
         mTransaction.addToBackStack(null);
         mTransaction.commit();
     }
+    @OnClick(R.id.button)
+    void onClick1(){
+        Log.e(getClass().getSimpleName(), "onClick1: "+getActivity().getApplicationContext().getPackageName() );
+        startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("rong://"+getActivity().getApplicationContext().getPackageName()+"/conversationlist")));
+    }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.login_fragment, container, false);
