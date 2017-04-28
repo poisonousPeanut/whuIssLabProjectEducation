@@ -50,8 +50,8 @@ public class FriendRequestActivity extends AppCompatActivity {
         toolbar.setTitle("");
         toolbarTitle.setText("好友请求");
         setSupportActionBar(toolbar);
-        initData();
         initView();
+        initData();
     }
 
     private void initData() {
@@ -79,8 +79,9 @@ public class FriendRequestActivity extends AppCompatActivity {
         call.enqueue(new Callback<ArrayList<FriendRequest>>() {
             @Override
             public void onResponse(Call<ArrayList<FriendRequest>> call, Response<ArrayList<FriendRequest>> response) {
-                if(response.body()!=null){
+                if(response.body().size()!=0){
                     mAdapter.setData(response.body());
+                    //Toast.makeText(FriendRequestActivity.this, "存在好友请求无法显示", Toast.LENGTH_SHORT).show();
                 }else{
                     Toast.makeText(FriendRequestActivity.this, Constant.INTERNET_FAIL, Toast.LENGTH_SHORT).show();
                 }

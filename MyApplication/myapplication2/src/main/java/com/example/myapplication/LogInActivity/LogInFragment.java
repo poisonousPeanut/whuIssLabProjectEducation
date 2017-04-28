@@ -61,11 +61,6 @@ public class LogInFragment extends Fragment {
         mTransaction.addToBackStack(null);
         mTransaction.commit();
     }
-    @OnClick(R.id.button)
-    void onClick1(){
-        Log.e(getClass().getSimpleName(), "onClick1: "+getActivity().getApplicationContext().getPackageName() );
-        startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("rong://"+getActivity().getApplicationContext().getPackageName()+"/conversationlist")));
-    }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.login_fragment, container, false);
@@ -219,7 +214,7 @@ public class LogInFragment extends Fragment {
         try {
 
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(getResources().getString(R.string.testBaseURL))
+                    .baseUrl("http://60.205.190.45:8080/education/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
             final RequestServes requestServes = retrofit.create(RequestServes.class);
@@ -229,7 +224,7 @@ public class LogInFragment extends Fragment {
             io.rong.imlib.model.UserInfo userInfo = null;
             Log.i("userinfo", "findUserByUid: " + info);
             if (info != null)
-                userInfo = new io.rong.imlib.model.UserInfo(info.getUid(), info.getNickname(), Uri.parse(getResources().getString(R.string.testBaseURL) + info.getImageURL()));
+                userInfo = new io.rong.imlib.model.UserInfo(info.getUid(), info.getNickname(), Uri.parse("http://60.205.190.45:8080/education/" + info.getImageURL()));
             return userInfo;
 
         } catch (IOException e) {

@@ -15,7 +15,7 @@
 
     <LinearLayout style="@style/wrap_layout" >
         <!-- 上圆角-->
-        <LinearLayout style="@style/top_layout"
+        <LinearLayout style="@style/base_layout"
             android:id="@+id/setting_password">
             <TextView style="@style/usertext" android:text="修改密码" />
             <!--<ImageView style="@style/img_arrow"/>-->
@@ -28,58 +28,58 @@
                 <!--android:layout_marginEnd="20dp" />-->
             <ImageView style="@style/img_arrow"/>
         </LinearLayout>
-        <View style="@style/bg_line"/>
-        <LinearLayout style="@style/mid_layout"
-            android:id="@+id/setting_nickname">
-            <TextView style="@style/usertext" android:text="昵称" />
-            <!--<ImageView style="@style/img_arrow"/>-->
-            <TextView style="@style/usertext" android:text="江一航"
-                android:id="@+id/id_setting_textview_nickname"
-                android:gravity="right"
-                android:layout_marginRight="10dp" />
-
-            <ImageView style="@style/img_arrow"/>
-        </LinearLayout>
-        <!-- 分割线 -->
-        <View style="@style/bg_line"/>
-        <!-- 无圆角-->
-        <LinearLayout style="@style/mid_layout" android:id="@+id/setting_gender">
-            <TextView style="@style/usertext" android:text="性别" />
-            <!--<ImageView style="@style/img_arrow"/>-->
-            <TextView style="@style/usertext" android:text=""
-                android:id="@+id/id_setting_textview_gender"
-                android:gravity="right"
-                android:layout_marginRight="10dp"/>
-            <ImageView style="@style/img_arrow"/>
-        </LinearLayout>
-        <View style="@style/bg_line"/>
-        <!-- 无圆角-->
-        <LinearLayout style="@style/mid_layout"
-            android:id="@+id/id_setting_personalfile_signature">
-            <TextView style="@style/usertext" android:text="个性签名" />
-            <ImageView style="@style/img_arrow"/>
-        </LinearLayout>
-        <View style="@style/bg_line"/>
-        <!-- 无圆角-->
-        <LinearLayout style="@style/mid_layout"
-            android:id="@+id/id_setting_personalfile_introduction">
-            <TextView style="@style/usertext" android:text="个人简介" />
-            <ImageView style="@style/img_arrow"/>
-        </LinearLayout>
-        <View style="@style/bg_line"/>
-        <!-- 无圆角-->
-        <LinearLayout style="@style/bottom_layout" android:id="@+id/setting_region">
-            <TextView style="@style/usertext" android:text="居住地"
-                />
+        <!--<View style="@style/bg_line"/>-->
+        <!--<LinearLayout style="@style/mid_layout"-->
+            <!--android:id="@+id/setting_nickname">-->
+            <!--<TextView style="@style/usertext" android:text="昵称" />-->
+            <!--&lt;!&ndash;<ImageView style="@style/img_arrow"/>&ndash;&gt;-->
+            <!--<TextView style="@style/usertext" android:text="江一航"-->
+                <!--android:id="@+id/id_setting_textview_nickname"-->
+                <!--android:gravity="right"-->
+                <!--android:layout_marginRight="10dp" />-->
 
             <!--<ImageView style="@style/img_arrow"/>-->
-            <TextView style="@style/usertext" android:text="湖北 武汉"
-                android:id="@+id/id_setting_textview_region"
-                android:gravity="right"
-                android:layout_marginRight="10dp"/>
-            <ImageView style="@style/img_arrow"/>
+        <!--</LinearLayout>-->
+        <!--&lt;!&ndash; 分割线 &ndash;&gt;-->
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 无圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/mid_layout" android:id="@+id/setting_gender">-->
+            <!--<TextView style="@style/usertext" android:text="性别" />-->
+            <!--&lt;!&ndash;<ImageView style="@style/img_arrow"/>&ndash;&gt;-->
+            <!--<TextView style="@style/usertext" android:text=""-->
+                <!--android:id="@+id/id_setting_textview_gender"-->
+                <!--android:gravity="right"-->
+                <!--android:layout_marginRight="10dp"/>-->
+            <!--<ImageView style="@style/img_arrow"/>-->
+        <!--</LinearLayout>-->
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 无圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/mid_layout"-->
+            <!--android:id="@+id/id_setting_personalfile_signature">-->
+            <!--<TextView style="@style/usertext" android:text="个性签名" />-->
+            <!--<ImageView style="@style/img_arrow"/>-->
+        <!--</LinearLayout>-->
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 无圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/mid_layout"-->
+            <!--android:id="@+id/id_setting_personalfile_introduction">-->
+            <!--<TextView style="@style/usertext" android:text="个人简介" />-->
+            <!--<ImageView style="@style/img_arrow"/>-->
+        <!--</LinearLayout>-->
+        <!--<View style="@style/bg_line"/>-->
+        <!--&lt;!&ndash; 无圆角&ndash;&gt;-->
+        <!--<LinearLayout style="@style/bottom_layout" android:id="@+id/setting_region">-->
+            <!--<TextView style="@style/usertext" android:text="居住地"-->
+                <!--/>-->
 
-        </LinearLayout>
+            <!--&lt;!&ndash;<ImageView style="@style/img_arrow"/>&ndash;&gt;-->
+            <!--<TextView style="@style/usertext" android:text="湖北 武汉"-->
+                <!--android:id="@+id/id_setting_textview_region"-->
+                <!--android:gravity="right"-->
+                <!--android:layout_marginRight="10dp"/>-->
+            <!--<ImageView style="@style/img_arrow"/>-->
+
+        <!--</LinearLayout>-->
         <!--<View style="@style/bg_line"/>-->
         <!--&lt;!&ndash; 无圆角&ndash;&gt;-->
         <!--<LinearLayout style="@style/mid_layout" android:id="@+id/setting_major">-->

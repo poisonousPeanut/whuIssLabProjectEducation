@@ -68,6 +68,13 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
 
 
         toolbar = (Toolbar)view.findViewById(R.id.first_toolbar);
+        toolbar.setNavigationIcon(R.drawable.back);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                getActivity().onBackPressed();
+            }
+        });
 //        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
 //        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
 
@@ -123,6 +130,8 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
                 if(title_left_btn.isEnabled()){
                     title_left_btn.setEnabled(false);
                     title_right_btn.setEnabled(true);
+                    title_right_btn.getBackground().setAlpha(100);
+                    title_left_btn.getBackground().setAlpha(100);
                 }
                 mFragmentManager = getFragmentManager();
                 mTransaction = mFragmentManager.beginTransaction();

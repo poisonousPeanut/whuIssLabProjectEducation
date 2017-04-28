@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        Log.e("MainActivity", "onNewIntent: wtf");
         setIntent(intent);
        processData();
     }

@@ -10,8 +10,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/Bright_Gold">
+        android:layout_height="wrap_content">
         <FrameLayout
             android:id="@+id/toolbar_container"
             android:layout_width="match_parent"
@@ -21,7 +20,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
+                android:background="@color/Bright_Gold"
                 app:popupTheme="@style/AppTheme.PopupOverlay"/>
             <com.miguelcatalan.materialsearchview.MaterialSearchView
                 android:id="@+id/search_view"
