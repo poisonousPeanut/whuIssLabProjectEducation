@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="add text" />-->
+
+    <EditText
+        android:id="@+id/id_EditText_AddQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="请输入问题"
+        android:gravity="top"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="问题内容"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:id="@+id/id_add_question_content"
+        />
+
+    <Button
+        android:id="@+id/id_Button_submit_question"
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        />
+</LinearLayout>
