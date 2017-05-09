@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 import butterknife.ButterKnife;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.Constant;
 
 /**
  * Created by fate on 2017/3/5.

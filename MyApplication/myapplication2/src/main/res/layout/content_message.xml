@@ -8,11 +8,16 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.myapplication.MessageActivity.MessageActivity"
     tools:showIn="@layout/activity_message">
-    <fragment
-        android:id="@+id/conversationlist"
-        android:name="io.rong.imkit.fragment.ConversationListFragment"
+    <!--<fragment-->
+        <!--android:id="@+id/conversationlist"-->
+        <!--android:name="io.rong.imkit.fragment.ConversationListFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:id="@+id/ConversationList"
+        android:orientation="vertical"></LinearLayout>
     <LinearLayout
         android:id="@+id/bottomTag2"
         android:layout_width="match_parent"

@@ -1,10 +1,12 @@
 package com.example.myapplication.MessageActivity;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.content.DialogInterface;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -15,7 +17,10 @@ import android.widget.TextView;
 import com.example.myapplication.R;
 import com.example.myapplication.MyApplication;
 
-public class MessageActivity extends AppCompatActivity {
+import io.rong.imkit.fragment.ConversationListFragment;
+import io.rong.imlib.model.Conversation;
+
+public class MessageActivity extends FragmentActivity {
     private FragmentManager mFragmentManager;
     private FragmentTransaction mTransaction;
 
@@ -32,6 +37,7 @@ public class MessageActivity extends AppCompatActivity {
 
     private TextView toolbarTitle;
     private BottomTagFragment2 bottomTag;//主页面底部标签栏
+    private ConversationListFragment conversationListFragment;
 
     public Fragment getBottomTag() {
         return bottomTag;
@@ -46,12 +52,21 @@ public class MessageActivity extends AppCompatActivity {
         toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
 //        toolbar.setLogo(R.mipmap.ic_launcher);
         toolbarTitle.setText("消息");
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
 
-        mFragmentManager = getFragmentManager();
+        mFragmentManager = getSupportFragmentManager();
         mTransaction = mFragmentManager.beginTransaction();
         bottomTag = new BottomTagFragment2();
+        conversationListFragment = new ConversationListFragment();
+        Uri uri = Uri.parse("rong://" + getApplicationInfo().packageName).buildUpon()
+                .appendPath("conversationlist")
+                .appendQueryParameter(Conversation.ConversationType.PRIVATE.getName(), "false") //设置私聊会话，该会话聚合显示
+                .appendQueryParameter(Conversation.ConversationType.GROUP.getName(), "false")//设置群组会话，该会话非聚合显示
+                .appendQueryParameter(Conversation.ConversationType.DISCUSSION.getName(), "false")//设置群组会话，该会话非聚合显示
+                .build();
+        conversationListFragment.setUri(uri);
         mTransaction.replace(R.id.bottomTag2, bottomTag);
+        mTransaction.replace(R.id.ConversationList,conversationListFragment);
         mTransaction.commit();
     }
 

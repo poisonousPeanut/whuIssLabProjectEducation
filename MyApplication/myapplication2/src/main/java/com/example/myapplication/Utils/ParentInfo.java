@@ -36,7 +36,7 @@ public class ParentInfo implements Serializable {
 
     public static String identity;
 
-    public static int lookOverIdNow=1;
+    public static int lookOverIdNow=8;
 
     public static String getTitleNow() {
         return titleNow;
@@ -59,7 +59,7 @@ public class ParentInfo implements Serializable {
 
     public static ArrayList<String> groupNames = new ArrayList<>();
     public static Uri getPrivateChatUri(String uid, String title){
-        return Uri.parse(com.example.myapplication.LinkmanActivity.Constant.URI_CONVERSATION_PRIVATE+uid+"&title="+title);
+        return Uri.parse(Constant.URI_CONVERSATION_PRIVATE+uid+"&title="+title);
     }
     public static String getIdentity(String uid){
         String identity = "";
@@ -193,7 +193,7 @@ public class ParentInfo implements Serializable {
         ParentInfo.lookOverIdNow = lookOverIdNow;
     }
     public static Uri getGroupChatUri(String gid,String title){
-        return Uri.parse(com.example.myapplication.LinkmanActivity.Constant.URI_CONVERSATION_GROUP+gid+"&title="+title);
+        return Uri.parse(Constant.URI_CONVERSATION_GROUP+gid+"&title="+title);
     }
 
 

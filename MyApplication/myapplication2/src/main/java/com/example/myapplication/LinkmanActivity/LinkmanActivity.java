@@ -6,6 +6,8 @@ import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -21,6 +23,7 @@ import android.widget.TextView;
 
 import com.example.myapplication.MyApplication;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.Constant;
 import com.example.myapplication.Utils.ParentInfo;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -46,7 +49,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
-public class LinkmanActivity extends AppCompatActivity {
+public class LinkmanActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener{
     private FragmentManager mFragmentManager;
     private FragmentTransaction mTransaction;
 
@@ -78,7 +81,22 @@ public class LinkmanActivity extends AppCompatActivity {
     private String cachePath;
     private File cacheFile;
     private ArrayList<RosterGroup> data = new ArrayList<>();
-
+    private static final int REFRESH_COMPLETE = 0X110;
+    private SwipeRefreshLayout mSwipeLayout;
+    private Handler mHandler = new Handler()
+    {
+        public void handleMessage(android.os.Message msg)
+        {
+            switch (msg.what)
+            {
+                case REFRESH_COMPLETE:
+                    loadData();
+                    mAdapter.notifyDataSetChanged();
+                    mSwipeLayout.setRefreshing(false);
+                    break;
+            }
+        };
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +118,13 @@ public class LinkmanActivity extends AppCompatActivity {
         mTransaction.commit();
         initView();
         loadData();
+        mSwipeLayout = (SwipeRefreshLayout)findViewById(R.id.swipeRefresh);
+
+        mSwipeLayout.setOnRefreshListener(this);
+        mSwipeLayout.setColorSchemeColors(getResources().getColor(android.R.color.holo_blue_bright),
+                getResources().getColor(android.R.color.holo_orange_light),
+                getResources().getColor(android.R.color.holo_green_light));
+
         setupUI(findViewById(R.id.activity_link));
     }
 
@@ -365,5 +390,10 @@ public class LinkmanActivity extends AppCompatActivity {
                     }).show();
         }
 //        super.onBackPressed();
+    }
+
+    @Override
+    public void onRefresh() {
+        mHandler.sendEmptyMessageDelayed(REFRESH_COMPLETE, 2000);
     }
 }

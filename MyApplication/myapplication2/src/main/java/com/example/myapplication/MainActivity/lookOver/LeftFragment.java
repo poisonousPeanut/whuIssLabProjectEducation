@@ -5,6 +5,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.myapplication.Bean.DayStudyInfo;
 import com.example.myapplication.MainActivity.MainActivity;
@@ -35,15 +38,32 @@ import static com.example.myapplication.MainActivity.lookOver.TimeStudyData.preD
 import static com.example.myapplication.MainActivity.lookOver.TimeStudyData.preDaysIssue;
 import static com.example.myapplication.MainActivity.lookOver.TimeStudyData.preDaysMessage;
 
-public class LeftFragment extends Fragment implements AdapterView.OnItemClickListener{
+public class LeftFragment extends Fragment implements AdapterView.OnItemClickListener,SwipeRefreshLayout.OnRefreshListener  {
     private ListView timeListView;
     private FragmentManager mFragmentManager;
     private FragmentTransaction mTransaction;
     private Fragment timeDay;
     private MainActivity mainActivity;
-    String[] res = {"今日","2017年2月22日","2017年2月21日","2017年2月20日","2017年2月19日","2017年2月18日","2017年2月17日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日"};
+    String[] res = {"今日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月21日","2017年2月20日","2017年2月19日","2017年2月18日","2017年2月17日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日"};
     private List<String> dateList=new ArrayList<>();
+    private ArrayAdapter<String> arrayAdapter;
+    private static final int REFRESH_COMPLETE = 0X110;
+    private SwipeRefreshLayout mSwipeLayout;
+    private Handler mHandler = new Handler()
+    {
+        public void handleMessage(android.os.Message msg)
+        {
+            switch (msg.what)
+            {
+                case REFRESH_COMPLETE:
+                    dataPrepare(ParentInfo.getLookOverIdNow());
+                    arrayAdapter.notifyDataSetChanged();
+                    mSwipeLayout.setRefreshing(false);
+                    break;
 
+            }
+        };
+    };
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view =inflater.inflate(R.layout.left_fragment, container, false);
@@ -51,11 +71,27 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
 //        mainActivity.setToolbarTitle("按时间查看");
         dataPrepare(ParentInfo.getLookOverIdNow());//1代表着家长所关注学生的id
         timeListView=(ListView)view.findViewById(R.id.listView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(),R.layout.list_item_1, dateList);
+        arrayAdapter = new ArrayAdapter<String>(getActivity(),R.layout.list_item_1, dateList);
         timeListView.setAdapter(arrayAdapter);
         timeListView.setOnItemClickListener(this);
+
+        mSwipeLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipeRefresh);
+
+        mSwipeLayout.setOnRefreshListener(this);
+        mSwipeLayout.setColorSchemeColors(getResources().getColor(android.R.color.holo_blue_bright),
+                getResources().getColor(android.R.color.holo_orange_light),
+                getResources().getColor(android.R.color.holo_green_light));
         return view;
 
+
+    }
+
+    public void onRefresh()
+    {
+        // Log.e("xxx", Thread.currentThread().getName());
+        // UI Thread
+
+        mHandler.sendEmptyMessageDelayed(REFRESH_COMPLETE, 2000);
 
     }
 
@@ -93,18 +129,15 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
             @Override
             public void onResponse(Call<ArrayList<DayStudyInfo>> call, Response<ArrayList<DayStudyInfo>> response) {
 //                Toast.makeText(ChangePwdActivity.this, "修改成功", Toast.LENGTH_SHORT).show();
-                if(response.body()!=null){
-//                    if(response.body().equals("success")){
-                        Log.e("LeftFragment", "onResponse: SUCCESS");
-//                    }
+                if(response.body().size()!=0){
+                    Log.e("LeftFragment", "onResponse: SUCCESS");
                     String sdate;
                     SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
                     dateList.clear();
                     getAllDaysData().clear();
                     for(DayStudyInfo dayStudyInfo:response.body()){
                         sdate=sdf.format(dayStudyInfo.getTime());
-//                        Log.e("LeftFragment", "date:"+dayStudyInfo.getTime());
-//                        Log.e("LeftFragment", "sdate:"+sdate);
+                        Log.e("LeftFragment", "onResponse: "+sdate);
                         dateList.add(sdate);
                         getAllDaysData().add(dayStudyInfo);
                         preDaysCourseLearning();
@@ -114,29 +147,29 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
                     }
                 }
                 else{
+                    Toast.makeText(getActivity(),"网络繁忙或没有学习记录",Toast.LENGTH_SHORT).show();
                     dateList.add("网络繁忙或没有学习记录");
                 }
             }
 
             @Override
             public void onFailure(Call<ArrayList<DayStudyInfo>> call, Throwable t) {
-//                Toast.makeText(ChangePwdActivity.this, "修改失败"+t, Toast.LENGTH_SHORT).show();
                 Log.e("LeftFragment", "onResponse: FAIL");
                 t.printStackTrace();
             }
         });
     }
 
-    @Override
-    public void onHiddenChanged(boolean hidden) {
-        if(hidden){
-            //do nothing
-//            onPause();
-        }
-        if(!hidden){
-//            mainActivity.setToolbarTitle("按时间查看");
-            ParentInfo.setTitleNow("按时间查看");
-        }
-    }
+//    @Override
+//    public void onHiddenChanged(boolean hidden) {
+//        if(hidden){
+//            //do nothing
+////            onPause();
+//        }
+//        if(!hidden){
+////            mainActivity.setToolbarTitle("按时间查看");
+//            ParentInfo.setTitleNow("按时间查看");
+//        }
+//    }
 
 }

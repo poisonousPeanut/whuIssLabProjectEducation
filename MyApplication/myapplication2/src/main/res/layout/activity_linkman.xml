@@ -45,7 +45,9 @@
         </FrameLayout>
     </android.support.design.widget.AppBarLayout>
 
+
     <include layout="@layout/content_linkman" />
+
 
 
 </android.support.design.widget.CoordinatorLayout>

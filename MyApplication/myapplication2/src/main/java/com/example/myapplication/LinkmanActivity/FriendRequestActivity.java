@@ -8,7 +8,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -16,7 +18,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.myapplication.LogInActivity.LogInActivity;
 import com.example.myapplication.R;
+import com.example.myapplication.Utils.Constant;
 import com.example.myapplication.Utils.ParentInfo;
 
 import java.util.ArrayList;
@@ -29,6 +33,8 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
+
+import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
 
 public class FriendRequestActivity extends AppCompatActivity {
@@ -52,6 +58,7 @@ public class FriendRequestActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         initView();
         initData();
+        setupUI(findViewById(R.id.activity_friendRequest));
     }
 
     private void initData() {
@@ -238,5 +245,25 @@ public class FriendRequestActivity extends AppCompatActivity {
                 holder.showAddFriend();
             }
         });
+    }
+
+    public void setupUI(View view) {
+        //Set up touch listener for non-text box views to hide keyboard.
+        if (!(view instanceof EditText)) {
+            view.setOnTouchListener(new View.OnTouchListener() {
+                public boolean onTouch(View v, MotionEvent event) {
+                    hideSoftKeyboard(FriendRequestActivity.this);  //Main.this是我的activity名
+                    return false;
+                }
+            });
+        }
+
+        //If a layout container, iterate over children and seed recursion.
+        if (view instanceof ViewGroup) {
+            for (int i = 0; i < ((ViewGroup) view).getChildCount(); i++) {
+                View innerView = ((ViewGroup) view).getChildAt(i);
+                setupUI(innerView);
+            }
+        }
     }
 }
