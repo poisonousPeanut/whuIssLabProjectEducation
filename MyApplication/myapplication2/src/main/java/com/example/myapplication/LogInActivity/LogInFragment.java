@@ -16,8 +16,8 @@
 //import android.widget.Toast;
 //
 //import com.example.myapplication.Bean.Parent;
-//import com.example.myapplication.LinkmanActivity.Info;
-//import com.example.myapplication.LinkmanActivity.PersonalInfoActivity;
+//import com.example.myapplication.LinkmanFragment.Info;
+//import com.example.myapplication.LinkmanFragment.PersonalInfoActivity;
 //import com.example.myapplication.MainActivity.MainActivity;
 //import com.example.myapplication.R;
 //import com.example.myapplication.Utils.ParentInfo;

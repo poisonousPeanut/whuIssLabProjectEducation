@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.myapplication.LinkmanActivity.LinkmanActivity"
-    tools:showIn="@layout/activity_linkman">
+    tools:context="com.example.myapplication.LinkmanActivity.LinkmanFragment"
+    tools:showIn="@layout/fragment_linkman">
 
     <android.support.v4.widget.SwipeRefreshLayout
     android:id="@+id/swipeRefresh"
@@ -86,14 +86,4 @@
     </LinearLayout>
 
     </android.support.v4.widget.SwipeRefreshLayout>
-    <LinearLayout
-        android:id="@+id/bottomTag3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-    </LinearLayout>
 </RelativeLayout>

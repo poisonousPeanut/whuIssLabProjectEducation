@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
 
-    <com.example.myapplication.MainActivity.lookOver.DockingExpandableListView
+    <com.example.myapplication.lookOver.DockingExpandableListView
         android:id="@+id/docking_list_view2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

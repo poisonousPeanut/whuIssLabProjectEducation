@@ -32,7 +32,7 @@
             <Button
                 android:id="@+id/checkAsCourse"
                 style="@style/top_all"
-                android:text="课程" />
+                android:text="问答" />
         </LinearLayout>
 
     </android.support.v7.widget.Toolbar>

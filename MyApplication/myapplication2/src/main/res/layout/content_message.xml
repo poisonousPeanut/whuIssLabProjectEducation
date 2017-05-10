@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.myapplication.MessageActivity.MessageActivity"
-    tools:showIn="@layout/activity_message">
+    tools:context="com.example.myapplication.MessageActivity.MessageFragment"
+    tools:showIn="@layout/fragment_message">
     <!--<fragment-->
         <!--android:id="@+id/conversationlist"-->
         <!--android:name="io.rong.imkit.fragment.ConversationListFragment"-->
@@ -18,14 +18,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/ConversationList"
         android:orientation="vertical"></LinearLayout>
-    <LinearLayout
-        android:id="@+id/bottomTag2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-    </LinearLayout>
 </RelativeLayout>

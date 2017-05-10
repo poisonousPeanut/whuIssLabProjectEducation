@@ -1,7 +1,7 @@
 package com.example.myapplication.Bean;
 
-import com.example.myapplication.MainActivity.lookOver.CourseLearning;
-import com.example.myapplication.MainActivity.lookOver.MessageRecord;
+import com.example.myapplication.lookOver.CourseLearning;
+import com.example.myapplication.lookOver.MessageRecord;
 
 import java.util.Date;
 import java.util.List;

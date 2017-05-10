@@ -1,11 +1,10 @@
 package com.example.myapplication.MainActivity;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -15,9 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import com.example.myapplication.MainActivity.lookOver.FirstFragment;
-import com.example.myapplication.R;
+import com.example.myapplication.lookOver.FirstFragment;
 import com.example.myapplication.MyApplication;
+import com.example.myapplication.R;
 import com.example.myapplication.Utils.ParentInfo;
 import com.example.myapplication.Utils.UpdateInfoServes;
 
@@ -32,8 +31,8 @@ import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
 
 public class MainActivity extends AppCompatActivity {
-//    private FragmentManager mFragmentManager;
-//    private FragmentTransaction mTransaction;
+    private FragmentManager mFragmentManager;
+    private FragmentTransaction mTransaction;
 
     public Toolbar getToolbar() {
         return toolbar;
@@ -69,119 +68,89 @@ public class MainActivity extends AppCompatActivity {
         //supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         MyApplication.getInstance().addActivity(this);
-//        mFragmentManager = getFragmentManager();
-//        mTransaction = mFragmentManager.beginTransaction();
-        processData();
-//        bottomTag = new BottomTagFragment();
-//        mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
-//        mTransaction.commit();
-
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        toolbar.setTitle("");
-//        toolbarTitle=(TextView)findViewById(R.id.toolbarTitle);
-        //toolbar.setSubtitle("子标题");
-//        toolbar.setLogo(R.mipmap.ic_launcher); //设置App的logo
-//        setSupportActionBar(toolbar);
-//        initView();
+        mFragmentManager = getSupportFragmentManager();
+        mTransaction = mFragmentManager.beginTransaction();
+        //processData();
+        bottomTag = new BottomTagFragment();
+        mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+        mTransaction.commit();
+        //initView();
         setupUI(findViewById(R.id.activity_main));
     }
 
 
+
+
 //    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
-//        return true;
+//    protected void onNewIntent(Intent intent) {
+//        super.onNewIntent(intent);
+//        setIntent(intent);
+//       processData();
 //    }
 
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        switch (id) {
-//            case R.id.add_friend:
-//                //加上加好友的逻辑
-//                break;
-//            case R.id.scace:
-//                //加上扫一扫
-//                break;
-//
+//    public void processData(){
+//        Bundle bundle = this.getIntent().getExtras();
+//        FragmentManager manager= getSupportFragmentManager();
+//        FragmentTransaction transaction= manager.beginTransaction();
+//        if(bundle==null){
+////            initView();
+////            bottomTag.getFirst_rad().setChecked(true);//似乎activity的oncreat执行完成之前fragment的oncreatview 不会执行
+//            setPageNow(1);
+//            bottomTag = new BottomTagFragment();
+//            transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+//            transaction.commit();
+//            return;
 //        }
-//        return super.onOptionsItemSelected(item);
+//        //接收name值
+//        try{
+//            int bottomNo = bundle.getInt("bottomNo");
+//            Log.e("MainActivity","onResume:获取到的name值为"+bottomNo);
+//            if(bottomTag==null){
+//                if(manager.findFragmentByTag("bottomTagFragment")!=null){
+//                    bottomTag = (BottomTagFragment) manager.findFragmentByTag("bottomTagFragment");
+////                    mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+////                    mTransaction.commit();
+//                    if (bottomNo==1){
+//                        bottomTag.getFirst_rad().setChecked(true);
+//                        setPageNow(1);
+//                    }
+//                    if(bottomNo==4){
+//                        bottomTag.getFourth_rad().setChecked(true);
+//                        setPageNow(4);
+//                    }
+//                }else{
+//                    bottomTag = new BottomTagFragment();
+//                    transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
+//                    transaction.commit();
+//                    if (bottomNo==1){
+//                        setPageNow(1);
+//                    }
+//                    if(bottomNo==4){
+//                        setPageNow(4);
+//                    }
+//                }
+//            }else{
+//                if (bottomNo==1){
+//                    bottomTag.getFirst_rad().setChecked(true);
+//                    setPageNow(1);
+//                }
+//                if(bottomNo==4){
+//                    bottomTag.getFourth_rad().setChecked(true);
+//                    setPageNow(4);
+//                }
+//            }
+//
+//        }catch (Exception E){
+//            Log.e("MainActivity", "onResume: FIRST CREAT");
+//            E.printStackTrace();
+//        }
 //    }
-
-    @Override
-    protected void onNewIntent(Intent intent) {
-        super.onNewIntent(intent);
-        setIntent(intent);
-       processData();
-    }
-
-    public void processData(){
-        Bundle bundle = this.getIntent().getExtras();
-        FragmentManager manager= getFragmentManager();
-        FragmentTransaction transaction= manager.beginTransaction();
-        if(bundle==null){
-//            initView();
-//            bottomTag.getFirst_rad().setChecked(true);//似乎activity的oncreat执行完成之前fragment的oncreatview 不会执行
-            setPageNow(1);
-            bottomTag = new BottomTagFragment();
-            transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
-            transaction.commit();
-            return;
-        }
-        //接收name值
-        try{
-            int bottomNo = bundle.getInt("bottomNo");
-            Log.e("MainActivity","onResume:获取到的name值为"+bottomNo);
-            if(bottomTag==null){
-                if(manager.findFragmentByTag("bottomTagFragment")!=null){
-                    bottomTag = (BottomTagFragment) manager.findFragmentByTag("bottomTagFragment");
-//                    mTransaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
-//                    mTransaction.commit();
-                    if (bottomNo==1){
-                        bottomTag.getFirst_rad().setChecked(true);
-                        setPageNow(1);
-                    }
-                    if(bottomNo==4){
-                        bottomTag.getFourth_rad().setChecked(true);
-                        setPageNow(4);
-                    }
-                }else{
-                    bottomTag = new BottomTagFragment();
-                    transaction.add(R.id.bottomTag, bottomTag,"bottomTagFragment");
-                    transaction.commit();
-                    if (bottomNo==1){
-                        setPageNow(1);
-                    }
-                    if(bottomNo==4){
-                        setPageNow(4);
-                    }
-                }
-            }else{
-                if (bottomNo==1){
-                    bottomTag.getFirst_rad().setChecked(true);
-                    setPageNow(1);
-                }
-                if(bottomNo==4){
-                    bottomTag.getFourth_rad().setChecked(true);
-                    setPageNow(4);
-                }
-            }
-
-        }catch (Exception E){
-            Log.e("MainActivity", "onResume: FIRST CREAT");
-            E.printStackTrace();
-        }
-    }
     @Override
     public void onBackPressed() {
         updateData();
-        if (getFragmentManager().getBackStackEntryCount() > 0) {
-            getFragmentManager().popBackStack();
+        if (getSupportFragmentManager().getBackStackEntryCount() > 0) {
+            getSupportFragmentManager().popBackStack();
+            Log.e("MainActivity", "onBackPressed: Fragment stack is not empty");
         } else {
             new AlertDialog.Builder(this).setTitle("确认退出吗？")
                     .setIcon(R.drawable.ic_info_outline_red_500_24dp)
@@ -257,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
         if (firstFragment==null){
             firstFragment = new FirstFragment();
         }
-        FragmentManager manager = getFragmentManager();
+        FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
         transaction.add(R.id.fragments, firstFragment, "FirstFragment");
         transaction.commit();
