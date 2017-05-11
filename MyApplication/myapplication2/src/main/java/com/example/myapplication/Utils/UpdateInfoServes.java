@@ -17,7 +17,7 @@ public interface UpdateInfoServes {
                            @Field("password") String password,
                            @Field("region") String region,
                            @Field("signature") String signature,
-                           @Field("imageURL") String imageURL,
+                           @Field("imageUrl") String imageURL,
                            @Field("gender") String gender,
                            @Field("introduction") String introduction,
                            @Field("email") String email,

@@ -1,8 +1,5 @@
 package com.example.myapplication.MainActivity.setting;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -11,6 +8,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -23,6 +23,7 @@ import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.ImageUtils;
 import com.example.myapplication.Utils.ParentInfo;
+import com.example.myapplication.lookOver.NormalImageLoader;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -104,9 +105,13 @@ public class SettingData extends Fragment implements View.OnClickListener{
 //            }
 //
 //        });
+
         personalGender.setText(ParentInfo.gender);
         personalRegion.setText(ParentInfo.region);
         personalNickName.setText(ParentInfo.nickname);
+        if (ParentInfo.getImageURL() != null) {
+            new NormalImageLoader().getPicture(getResources().getString(R.string.testBaseURL) + ParentInfo.getImageURL(), personfileImage);
+        }
         return view;
     }
 
@@ -131,7 +136,6 @@ public class SettingData extends Fragment implements View.OnClickListener{
                 mTransaction.replace(R.id.fourth_fragment_content,nickNameFragment);
                 mTransaction.addToBackStack(null);
                 mTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
-                Log.i(TAG, "onClick: clickNick!");
                 break;
 
             //性别
@@ -313,7 +317,7 @@ public class SettingData extends Fragment implements View.OnClickListener{
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
-                Log.i("uploader image","success");
+                Log.e("uploader image", "success");
                 ParentInfo.setImageURL(response.body().toString());
 //                UserUtils.setParam(getApplicationContext(),user);
             }

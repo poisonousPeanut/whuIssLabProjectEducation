@@ -10,7 +10,7 @@ import retrofit2.http.Part;
  * Created by 小妖王 on 2017/4/16.
  */
 public interface ImageUploadServes {
-    @POST("lu/ImageServlet")
+    @POST("lu/ImageUpServlet")
     @Multipart
     Call<String> uploadImage(@Part("fileName") String uid , @Part("file\";filename=\"1.jpg") RequestBody file);
 }

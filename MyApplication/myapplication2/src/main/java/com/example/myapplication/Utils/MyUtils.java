@@ -22,7 +22,7 @@ public class MyUtils {
     public static String transTime(long ms){
         java.lang.String string;
         long l = ms/1000;
-        string= l/3600+"小时"+(l%3600)/60+"分钟"+1%60;
+        string = l / 3600 + "小时" + (l % 3600) / 60 + "分钟" + 1 % 60 + "秒";
         return string;
     }
 }

@@ -162,7 +162,7 @@ public class User implements Serializable {
                 ", school='" + school + '\'' +
                 ", phone='" + phone + '\'' +
                 ", signature='" + signature + '\'' +
-                ", imageURL='" + imageURL + '\'' +
+                ", imageUrl='" + imageURL + '\'' +
                 ", gender='" + gender + '\'' +
                 '}';
     }

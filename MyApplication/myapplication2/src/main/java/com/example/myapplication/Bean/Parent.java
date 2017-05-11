@@ -28,7 +28,7 @@ public class Parent implements Serializable {
     public  String region;
     public  String phone;
     public  String signature;
-    public  String imageURL;
+    public String imageUrl;
     public  String gender;
     public  String introduction;
     public  String token;
@@ -160,11 +160,13 @@ public class Parent implements Serializable {
     public void setSignature(String signture) {
         this.signature = signture;
     }
-    public String getImageURL() {
-        return imageURL;
+
+    public String getImageUrl() {
+        return imageUrl;
     }
-    public void setImageURL(String imageURL) {
-        this.imageURL = imageURL;
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     @Override
@@ -183,7 +185,7 @@ public class Parent implements Serializable {
 //                ", school='" + school + '\'' +
                 ", phone='" + phone + '\'' +
                 ", signature='" + signature + '\'' +
-                ", imageURL='" + imageURL + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 ", gender='" + gender + '\'' +
                 '}';
     }

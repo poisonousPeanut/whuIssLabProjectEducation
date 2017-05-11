@@ -1,9 +1,6 @@
 package com.example.myapplication.LogInActivity;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -41,7 +38,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
-import static butterknife.ButterKnife.bind;
 import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
 /**
@@ -126,7 +122,7 @@ private void InitLogin(final String username, final String userpwd) {
                 ParentInfo.password = parent.getPassword();
                 ParentInfo.region = parent.getRegion();
                 ParentInfo.signature = parent.getSignature();
-                ParentInfo.imageURL = parent.getImageURL();
+                ParentInfo.imageURL = parent.getImageUrl();
                 ParentInfo.gender = parent.getGender();
                 ParentInfo.introduction = parent.getIntroduction();
                 ParentInfo.email = parent.getEmail();
@@ -136,7 +132,7 @@ private void InitLogin(final String username, final String userpwd) {
                 ParentInfo.token = parent.getToken();
                 ParentInfo.username = parent.getUsername();
                 ParentInfo.uid = "a"+parent.getId();
-                Log.e("introduction", ParentInfo.introduction+"");
+                Log.e("imageurl", ParentInfo.imageURL + "");
                 Log.e("username", ParentInfo.username+"");
                 Log.e("success", "onResponse:1 ");
 //                    storeInfo(parent.getUsername(),parent.getPassword());

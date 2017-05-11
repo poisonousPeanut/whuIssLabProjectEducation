@@ -116,7 +116,7 @@
 //                    ParentInfo.password = parent.getPassword();
 //                    ParentInfo.region = parent.getRegion();
 //                    ParentInfo.signature = parent.getSignature();
-//                    ParentInfo.imageURL = parent.getImageURL();
+//                    ParentInfo.imageUrl = parent.getImageUrl();
 //                    ParentInfo.gender = parent.getGender();
 //                    ParentInfo.introduction = parent.getIntroduction();
 //                    ParentInfo.email = parent.getEmail();
@@ -224,7 +224,7 @@
 //            io.rong.imlib.model.UserInfo userInfo = null;
 //            Log.i("userinfo", "findUserByUid: " + info);
 //            if (info != null)
-//                userInfo = new io.rong.imlib.model.UserInfo(info.getUid(), info.getNickname(), Uri.parse("http://60.205.190.45:8080/education/" + info.getImageURL()));
+//                userInfo = new io.rong.imlib.model.UserInfo(info.getUid(), info.getNickname(), Uri.parse("http://60.205.190.45:8080/education/" + info.getImageUrl()));
 //            return userInfo;
 //
 //        } catch (IOException e) {
