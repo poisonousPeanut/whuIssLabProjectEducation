@@ -3,10 +3,8 @@ package com.example.myapplication.LinkmanActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -47,7 +45,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 import static android.app.Activity.RESULT_OK;
 import static com.example.myapplication.Utils.MyUtils.hideSoftKeyboard;
 
-public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
+public class LinkmanFragment extends Fragment {
 //    private FragmentManager mFragmentManager;
 //    private FragmentTransaction mTransaction;
 
@@ -79,21 +77,21 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
     private File cacheFile;
     private ArrayList<RosterGroup> data = new ArrayList<>();
     private static final int REFRESH_COMPLETE = 0X110;
-    private SwipeRefreshLayout mSwipeLayout;
-    private Handler mHandler = new Handler()
-    {
-        public void handleMessage(android.os.Message msg)
-        {
-            switch (msg.what)
-            {
-                case REFRESH_COMPLETE:
-                    loadData();
-                    mAdapter.notifyDataSetChanged();
-                    mSwipeLayout.setRefreshing(false);
-                    break;
-            }
-        };
-    };
+//    private SwipeRefreshLayout mSwipeLayout;
+//    private Handler mHandler = new Handler()
+//    {
+//        public void handleMessage(android.os.Message msg)
+//        {
+//            switch (msg.what)
+//            {
+//                case REFRESH_COMPLETE:
+//                    loadData();
+//                    mAdapter.notifyDataSetChanged();
+//                    mSwipeLayout.setRefreshing(false);
+//                    break;
+//            }
+//        };
+//    };
 
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
@@ -134,6 +132,14 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
         toolbarTitle = (TextView) view.findViewById(R.id.toolbarTitle);
 //        toolbar.setLogo(R.mipmap.ic_launcher);
         toolbarTitle.setText("联系人");
+        toolbar.setNavigationIcon(R.drawable.ic_autorenew_white_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadData();
+                mAdapter.notifyDataSetChanged();
+            }
+        });
         toolbar.inflateMenu(R.menu.search);
         MenuItem item = toolbar.getMenu().findItem(R.id.action_search);
         searchView.setMenuItem(item);
@@ -143,12 +149,13 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
         initView();
         loadData();
 
-        mSwipeLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipeRefresh);
-
-        mSwipeLayout.setOnRefreshListener(this);
-        mSwipeLayout.setColorSchemeColors(getResources().getColor(android.R.color.holo_blue_bright),
-                getResources().getColor(android.R.color.holo_orange_light),
-                getResources().getColor(android.R.color.holo_green_light));
+        //曾经的下拉刷新 和列表有点冲突
+//        mSwipeLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipeRefresh);
+//
+//        mSwipeLayout.setOnRefreshListener(this);
+//        mSwipeLayout.setColorSchemeColors(getResources().getColor(android.R.color.holo_blue_bright),
+//                getResources().getColor(android.R.color.holo_orange_light),
+//                getResources().getColor(android.R.color.holo_green_light));
 
 //        setupUI(findViewById(R.id.activity_link));
         return view;
@@ -255,6 +262,7 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
                         ParentInfo.groupNames.add(group.getName());
                     }
                 }
+                mAdapter.notifyDataSetChanged();
             }
 
             @Override
@@ -280,9 +288,21 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
             @Override
             public void onResponse(Call<Result> call, Response<Result> response) {
       /*这里总是有异常 点开联系人界面的时候直接崩 稍后处理*/
-                if (response.body()!=null){
-                tvNumber.setText(response.body().getCount() + "");}
-                else tvNumber.setText(0);
+
+                if (response.body() != null) {
+                    try {
+                        tvNumber.setText(response.body().getCount() + "");
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    try {
+                        tvNumber.setText(0);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
             }
 
             @Override
@@ -417,9 +437,9 @@ public class LinkmanFragment extends Fragment implements SwipeRefreshLayout.OnRe
 //        }
 ////        super.onBackPressed();
 //    }
-
-    @Override
-    public void onRefresh() {
-        mHandler.sendEmptyMessageDelayed(REFRESH_COMPLETE, 2000);
-    }
+//
+//    @Override
+//    public void onRefresh() {
+//        mHandler.sendEmptyMessageDelayed(REFRESH_COMPLETE, 2000);
+//    }
 }

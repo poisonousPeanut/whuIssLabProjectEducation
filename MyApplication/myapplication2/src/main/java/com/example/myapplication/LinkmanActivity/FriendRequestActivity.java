@@ -18,7 +18,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication.LogInActivity.LogInActivity;
 import com.example.myapplication.R;
 import com.example.myapplication.Utils.Constant;
 import com.example.myapplication.Utils.ParentInfo;
@@ -86,9 +85,11 @@ public class FriendRequestActivity extends AppCompatActivity {
         call.enqueue(new Callback<ArrayList<FriendRequest>>() {
             @Override
             public void onResponse(Call<ArrayList<FriendRequest>> call, Response<ArrayList<FriendRequest>> response) {
-                if(response.body().size()!=0){
-                    mAdapter.setData(response.body());
-                    //Toast.makeText(FriendRequestActivity.this, "存在好友请求无法显示", Toast.LENGTH_SHORT).show();
+                if (response.body() != null) {
+                    if (response.body().size() != 0) {
+                        mAdapter.setData(response.body());
+                        //Toast.makeText(FriendRequestActivity.this, "存在好友请求无法显示", Toast.LENGTH_SHORT).show();
+                    }
                 }else{
                     Toast.makeText(FriendRequestActivity.this, Constant.INTERNET_FAIL, Toast.LENGTH_SHORT).show();
                 }

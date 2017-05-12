@@ -9,10 +9,10 @@
     tools:context="com.example.myapplication.LinkmanActivity.LinkmanFragment"
     tools:showIn="@layout/fragment_linkman">
 
-    <android.support.v4.widget.SwipeRefreshLayout
-    android:id="@+id/swipeRefresh"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--android:id="@+id/swipeRefresh"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" >-->
     <LinearLayout
         android:id="@+id/content_contact"
         android:layout_width="match_parent"
@@ -85,5 +85,5 @@
         </com.example.myapplication.LinkmanActivity.AnimatedExpandableListView>
     </LinearLayout>
 
-    </android.support.v4.widget.SwipeRefreshLayout>
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
 </RelativeLayout>

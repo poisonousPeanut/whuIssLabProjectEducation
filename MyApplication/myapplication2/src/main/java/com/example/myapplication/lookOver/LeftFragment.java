@@ -39,7 +39,8 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
     private Fragment timeDay;
     private MainActivity mainActivity;
     String[] res = {"今日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月22日","2017年2月21日","2017年2月20日","2017年2月19日","2017年2月18日","2017年2月17日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日","2017年2月16日"};
-    private List<String> dateList=new ArrayList<>();
+    private List<String> dateList = new ArrayList<>();
+    private boolean isDateListAssigned = false;
     private ArrayAdapter<String> arrayAdapter;
     private static final int REFRESH_COMPLETE = 0X110;
     private SwipeRefreshLayout mSwipeLayout;
@@ -64,11 +65,17 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
         mainActivity=(MainActivity)getActivity();
 //        mainActivity.setToolbarTitle("按时间查看");
         dataPrepare(ParentInfo.getLookOverIdNow());//1代表着家长所关注学生的id
+//        while (!isDateListAssigned){
+//            //确保datelist被赋值
+//            Log.e("LeftFragment", "onCreateView: dateList have not been assigned yet");
+//        }
+//        if (dateList.size()==0){
+//            Log.e("LeftFragment", "onCreateView: dateList have not been assigned");
+//        }
         timeListView=(ListView)view.findViewById(R.id.listView);
-        arrayAdapter = new ArrayAdapter<String>(getActivity(),R.layout.list_item_1, dateList);
+        arrayAdapter = new ArrayAdapter<String>(getActivity(), R.layout.list_item_1, dateList);
         timeListView.setAdapter(arrayAdapter);
-        timeListView.setOnItemClickListener(this);
-
+        timeListView.setOnItemClickListener(LeftFragment.this);
         mSwipeLayout = (SwipeRefreshLayout)view.findViewById(R.id.swipeRefresh);
 
         mSwipeLayout.setOnRefreshListener(this);
@@ -127,8 +134,8 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
                     Log.e("LeftFragment", "onResponse: SUCCESS");
                     String sdate;
                     SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
-                    dateList.clear();
                     TimeStudyData.getAllDaysData().clear();
+                    dateList.clear();
                     for(DayStudyInfo dayStudyInfo:response.body()){
                         sdate=sdf.format(dayStudyInfo.getTime());
                         Log.e("LeftFragment", "onResponse: "+sdate);
@@ -138,12 +145,14 @@ public class LeftFragment extends Fragment implements AdapterView.OnItemClickLis
                         TimeStudyData.preDaysIssue();
                         TimeStudyData.preDaysAnswer();
                         TimeStudyData.preDaysMessage();
+//                        isDateListAssigned = true;
                     }
                 }
                 else{
                     Toast.makeText(getActivity(),"网络繁忙或没有学习记录",Toast.LENGTH_SHORT).show();
                     dateList.add("网络繁忙或没有学习记录");
                 }
+                arrayAdapter.notifyDataSetChanged();
             }
 
             @Override

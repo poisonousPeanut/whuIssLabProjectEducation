@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.myapplication.MessageActivity.MessageFragment"
-    tools:showIn="@layout/fragment_message">
+    tools:showIn="@layout/fragment_message"
+    android:background="@color/light_grey">
     <!--<fragment-->
         <!--android:id="@+id/conversationlist"-->
         <!--android:name="io.rong.imkit.fragment.ConversationListFragment"-->

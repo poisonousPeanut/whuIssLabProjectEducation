@@ -70,13 +70,6 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
 
 
         toolbar = (Toolbar)view.findViewById(R.id.first_toolbar);
-        toolbar.setNavigationIcon(R.drawable.back);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                getActivity().onBackPressed();
-            }
-        });
 //        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
 //        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
 
@@ -192,20 +185,20 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
         title_left_btn.setOnClickListener(this);
         title_left_btn.performClick();//模拟点击事件，使左边按钮被点击
 
-        mFragmentManager = getFragmentManager();
-        mTransaction = mFragmentManager.beginTransaction();
-
-        mLFragment = mFragmentManager.findFragmentByTag("LeftFragment");
-        if (mLFragment == null) {
-            try {
-                mLFragment = new LeftFragment();
-            } catch (Exception e) {
-            }
-            mTransaction.add(R.id.first_fragment_content, mLFragment, "LeftFragment");
-        } else {
-            mTransaction.show(mLFragment);
-        }
-        mTransaction.commit();
+//        mFragmentManager = getFragmentManager();
+//        mTransaction = mFragmentManager.beginTransaction();
+//
+//        mLFragment = mFragmentManager.findFragmentByTag("LeftFragment");
+//        if (mLFragment == null) {
+//            try {
+//                mLFragment = new LeftFragment();
+//            } catch (Exception e) {
+//            }
+//            mTransaction.add(R.id.first_fragment_content, mLFragment, "LeftFragment");
+//        } else {
+//            mTransaction.show(mLFragment);
+//        }
+//        mTransaction.commit();
 
         title_right_btn.setOnClickListener(this);
     }

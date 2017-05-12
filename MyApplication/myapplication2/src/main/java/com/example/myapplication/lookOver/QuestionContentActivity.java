@@ -7,7 +7,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,8 +41,8 @@ public class QuestionContentActivity extends Activity implements MyItemClickList
     ExpandableTextView questionContent;
     @Bind(R.id.tv_discover_number)
     TextView answerNumber;
-    @Bind(R.id.ib_answer)
-    ImageView answer;
+    //    @Bind(R.id.ib_answer)
+//    ImageView answer;
     QuestionInfo questionInfo;
     AnswerAdapter answerAdapter;
     RecyclerView recyclerView;
@@ -85,7 +84,7 @@ public class QuestionContentActivity extends Activity implements MyItemClickList
             @Override
             public void onResponse(Call<ArrayList<Answer>> call, Response<ArrayList<Answer>> response) {
                 answers = response.body();
-                Log.e("answer load:",answers.toString());
+                //Log.e("answer load:",answers.toString());
                 if(answers==null){
                     Toast.makeText(QuestionContentActivity.this, "网络异常请重试", Toast.LENGTH_SHORT).show();
                     finish();
