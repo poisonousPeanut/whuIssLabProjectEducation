@@ -76,7 +76,7 @@ private String userName = "";
                 userName = loginName.getText().toString();
                 userpwd = loginpwd.getText().toString();
                 Log.i("front", "onClicklogin:"+userName+userpwd);
-                InitLogin(userName,userpwd);
+                InitLogin("l5", "l5");
 //                Intent intent = new Intent(getActivity(), MainActivity.class);
 //                startActivity(intent);
             }
