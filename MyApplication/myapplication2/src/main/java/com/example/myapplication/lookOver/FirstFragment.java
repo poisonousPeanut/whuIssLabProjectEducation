@@ -4,13 +4,17 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.SimpleAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.myapplication.MainActivity.MainActivity;
 import com.example.myapplication.R;
@@ -20,6 +24,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 
 /**
@@ -27,7 +37,7 @@ import java.util.Map;
  */
 
 public class FirstFragment extends Fragment implements View.OnClickListener {
-    private Spinner spinner;
+    private Spinner changeStudent;
     private List<String> data_list;
     private ArrayAdapter<String> arr_adapter;
     private Button title_left_btn , title_right_btn;
@@ -49,71 +59,14 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
     private MainActivity mainActivity;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-        //spinner = (Spinner)getActivity().findViewById(R.id.spinner);
         View view=inflater.inflate(R.layout.first_fragment, container, false);
-
-//        spinner = (Spinner)view.findViewById(R.id.spinner);
-//        //数据
-//        data_list = new ArrayList<String>();
-//        data_list.add("学生1");
-//        data_list.add("学生2");
-//        data_list.add("学生3");
-//        data_list.add("学生4");
-//
-//        //适配器
-//        arr_adapter= new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,data_list);
-//        //设置样式
-//        arr_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        //加载适配器
-//        spinner.setAdapter(arr_adapter);
-////        spinner.setOnItemClickListener(this);
-
-
+        changeStudent = (Spinner) view.findViewById(R.id.changeStudent);
+        SimpleAdapter simpleAdapter = new SimpleAdapter(getActivity(), getData(), R.layout.piconly,
+                new String[]{"pic", "text"}, new int[]{R.id.imageview, R.id.textview});
+        simpleAdapter.setDropDownViewResource(R.layout.pic_text);
+        changeStudent.setAdapter(simpleAdapter);
         toolbar = (Toolbar)view.findViewById(R.id.first_toolbar);
-//        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-//        ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
-
-//        toolbar.setLogo(R.mipmap.ic_launcher);
-
-//        SpinnerAdapter spinnerAdapter = new SimpleAdapter(getActivity(),
-//                                                            getData(),
-//                                                            R.layout.spinner_item,new String[]{"pic","text"},
-//                                                            new int[] {R.id.imageView2,R.id.textView5});
-//
-//
-//
-//        Spinner navigationSpinner = new Spinner(toolbar.getContext());//(((AppCompatActivity) getActivity()).getSupportActionBar().getThemedContext());
-//
-//        navigationSpinner.setAdapter(spinnerAdapter);
-//
-//        toolbar.addView(navigationSpinner, 0);
-//
-//        navigationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-//
-//            @Override
-//
-//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//
-//                Toast.makeText(getActivity(),
-//
-//                        "you selected: " + position,
-//
-//                        Toast.LENGTH_SHORT).show();
-//
-//            }
-//
-//            @Override
-//
-//            public void onNothingSelected(AdapterView<?> parent) {
-//
-//            }
-//
-//        });
-        mainActivity=(MainActivity)getActivity();
-
         initView(view);
-//        mainActivity.getToolbar().setTitle("查看学生学习情况");
-//        mainActivity.setToolbarTitle("按时间查看");
         return view;
     }
 
@@ -221,11 +174,46 @@ public class FirstFragment extends Fragment implements View.OnClickListener {
             map.put("text","oh,shit"+i);
             mapList.add(map);
         }
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("pic", R.drawable.ic_face_red_400_24dp);
+        map.put("text", "sde");
+        mapList.add(map);
         return mapList;
     }
-//    @Override
-//    public void onResume() {
-//        mainActivity.setToolbarTitle("查看");
-//        super.onResume();
+
+//    private void prepareData() {
+//        user = UserUtils.getParam(getApplicationContext());
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl(getResources().getString(R.string.baseURL))
+//                .addConverterFactory(ScalarsConverterFactory.create())
+//                .addConverterFactory(GsonConverterFactory.create())
+//                .build();
+//        ContantServes contantServes = retrofit.create(ContantServes.class);
+//        Call<ArrayList<Student>> call = contantServes.getStudentInfo(UserInfo.id+"");
+//        call.enqueue(new Callback<ArrayList<Student>>() {
+//            @Override
+//            public void onResponse(Call<ArrayList<Student>> call, Response<ArrayList<Student>> response) {
+//                ArrayList<Student> unpairStudents = response.body();
+//                if(unpairStudents!=null){
+//                    students=unpairStudents;
+//                    StudentInfoAdapter studentAdapter = new StudentInfoAdapter(students,recyclerView.getContext());
+//                    recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
+//                    studentAdapter.setOnItemClickListener(PairStudentActivity.this);
+//                    recyclerView.setAdapter(studentAdapter);
+//                }else {
+//                    Toast.makeText(PairStudentActivity.this, "学生获取失败", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onFailure(Call<ArrayList<Student>> call, Throwable t) {
+//                Toast.makeText(PairStudentActivity.this, "网络异常，请重试"+t, Toast.LENGTH_SHORT).show();
+//                Log.i("unpair student",t.toString());
+//            }
+//        });
+//
+//
+//        //// TODO: 2017/2/21
+//
 //    }
 }
