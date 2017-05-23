@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/first_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/Bright_Gold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <!--自定义控件-->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeStudent"
+            android:spinnerMode="dropdown" />
+
+        <LinearLayout
+            android:id="@+id/common_constact"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ll_top_bg"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/checkAsTime"
+                style="@style/top_group"
+                android:text="时间" />
+
+            <Button
+                android:id="@+id/checkAsCourse"
+                style="@style/top_all"
+                android:text="问答" />
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<View-->
+    <!--android:id="@+id/divider_view1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:background="@color/Gray"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--/>-->
+
+
+    <!--<View-->
+    <!--android:id="@+id/divider_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:layout_below="@id/common_constact"-->
+    <!--android:background="#bdbdbd" />-->
+
+
+    <!--<Spinner-->
+    <!--android:id="@+id/spinner"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_above="@+id/divider_view"-->
+    <!--android:layout_alignParentLeft="true" />-->
+
+
+    <FrameLayout
+
+        android:id="@+id/first_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/first_toolbar"></FrameLayout>
+</RelativeLayout>
